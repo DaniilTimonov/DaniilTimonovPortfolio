@@ -1,13 +1,16 @@
 /* HeroesComponent's private CSS styles */
 .heroes {
-    margin: 0 0 2em 0;
+ 
     list-style-type: none;
     padding: 0;
-    width: 15em;
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   
   .heroes li {
-    display: flex;
+ display: list-item;
   }
   
   .heroes button {
@@ -70,3 +73,4 @@
     width: 200px;
     height:200px ;
   }
+

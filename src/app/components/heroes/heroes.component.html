@@ -5,17 +5,18 @@
       <span class="badge">{{hero.id}}</span>
       <!-- <span class="name">{{hero.name}}</span> -->
        
-      <img  class="imgss" src={{hero.name}}>
+      <img  class="imgss" src={{hero.imgs}}>
 
     </button>
   </li>
 </ul>
 
 <div *ngIf="selectedHero">
-  <img src={{selectedHero.name}}>
+  <button close (click)="onClose()">Close</button>
+  <img src={{selectedHero.imgs}}>
   <div>id: {{selectedHero.id}}</div>
   <div>
     <label for="hero-name">Hero name: </label>
-    <input id="hero-name" [(ngModel)]="selectedHero.name" placeholder="name">
+    <input id="hero-name" [(ngModel)]="selectedHero.imgs" placeholder="name">
   </div>
 </div>
