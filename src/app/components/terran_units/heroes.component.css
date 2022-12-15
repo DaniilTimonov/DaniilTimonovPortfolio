@@ -1,8 +1,13 @@
 
+.terran_units_page {
+  width: 1200px;
+  height: 100%;
+  border: 2px solid black;  
+}
 .heroes {
- 
+ width: 1000px;
     list-style-type: none;
-    padding: 0;
+    padding-left: 5%;
      display: flex;
     flex-direction: row;
     flex-wrap: wrap;
