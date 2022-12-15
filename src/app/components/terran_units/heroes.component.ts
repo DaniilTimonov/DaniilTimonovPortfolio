@@ -5,7 +5,7 @@ import { Input } from '@angular/core';
 
 
 @Component({
-  selector: 'app-heroes',
+  selector: 'terran-units',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })

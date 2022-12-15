@@ -1,9 +1,10 @@
-<h2>My Heroes</h2>
+<div class="terran_units_page">
+<h2 class="terranunitsheading">Terran units</h2>
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
     <button [class.selected]="hero === selectedHero" type="button" (click)="onSelect(hero)">
       <span class="badge">{{hero.id}}</span>
-      <!-- <span class="name">{{hero.name}}</span> -->
+
        
       <img  class="imgss" src={{hero.imgs}}>
 
@@ -11,12 +12,15 @@
   </li>
 </ul>
 
-<div *ngIf="selectedHero">
+<div class="openedimage" *ngIf="selectedHero">
   <button close (click)="onClose()">Close</button>
-  <img src={{selectedHero.imgs}}>
+  <img class="imgsstil" src={{selectedHero.imgs}}>
   <div>id: {{selectedHero.id}}</div>
   <div>
     <label for="hero-name">Hero name: </label>
     <input id="hero-name" [(ngModel)]="selectedHero.imgs" placeholder="name">
+    <a href="{{selectedHero.imgs}}" [(ngModel)]="selectedHero.imgs" placeholder="name"> {{selectedHero.name}}
+</a>
   </div>
+</div>
 </div>

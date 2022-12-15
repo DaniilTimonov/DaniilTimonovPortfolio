@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeroesComponent } from './components/heroes/heroes.component';
+import { HeroesComponent } from './components/terran_units/heroes.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
