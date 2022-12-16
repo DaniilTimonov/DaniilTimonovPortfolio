@@ -1,0 +1,23 @@
+.navigationburger {
+    width:281px ;
+    height: 23px;
+
+    background-size: cover;
+display: flex;
+flex-direction: column;
+}
+p, a {
+  font-size: 18pt;
+  margin: 0 24px;
+  padding: 2px;
+  text-decoration:none;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .navigationburger{
+    height: 200px;
+  }
+
+
+  }
