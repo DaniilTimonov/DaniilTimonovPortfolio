@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from 'src/app/hero';
-import { HEROES } from 'src/app/zerg-heroes';
+import { HEROES } from 'src/app/cloth_art_container';
 import { Input } from '@angular/core';
 
 
 @Component({
-  selector: 'zerg-units',
-  templateUrl: './zerg-units.component.html',
-  styleUrls: ['./zerg-units.component.css']
+  selector: 'drawing_on_cloth',
+  templateUrl: './drawing_on_cloth.component.html',
+  styleUrls: ['./drawing_on_cloth.component.css']
 })
-export class ZergUnitsComponent implements OnInit {
+export class DrawingOnCloth implements OnInit {
   heroes = HEROES;
 
   constructor() { }
@@ -23,8 +23,6 @@ export class ZergUnitsComponent implements OnInit {
   }
 
 
-
   ngOnInit(): void {
   }
-
 }

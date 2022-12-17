@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from 'src/app/hero';
-import { HEROES } from 'src/app/protoss-heroes';
+import { HEROES } from 'src/app/digital_art_container';
 import { Input } from '@angular/core';
 
 
 @Component({
-  selector: 'app-protoss-units',
-  templateUrl: './protoss-units.component.html',
-  styleUrls: ['./protoss-units.component.css']
+  selector: 'digital_graphic',
+  templateUrl: './digital_graphic.component.html',
+  styleUrls: ['./digital_graphic.component.css']
 })
-export class ProtossUnitsComponent implements OnInit {
+export class DigitalGraphic implements OnInit {
   heroes = HEROES;
 
   constructor() { }
@@ -23,6 +23,8 @@ export class ProtossUnitsComponent implements OnInit {
   }
 
 
+
   ngOnInit(): void {
   }
+
 }
