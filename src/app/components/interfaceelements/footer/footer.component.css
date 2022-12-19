@@ -1,6 +1,10 @@
 .footerccenter {
     width: 1203px;
-    height: 200px;
+    height: 50px;
     background-color: blueviolet;
+
     
+}
+.contacts {
+    font-size: 20px;
 }

@@ -1,6 +1,9 @@
 .headerccenter {
-    width: 1203px;
+     width: 1203px;
     height: 200px;
     background-color: blueviolet;
-    display: flex;
+    display: flex; 
+
+
+
 }

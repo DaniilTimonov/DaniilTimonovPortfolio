@@ -12,6 +12,8 @@ import { HeaderComponent } from './components/interfaceelements/header/header.co
 import { FooterComponent } from './components/interfaceelements/footer/footer.component';
 import { NavigationburgerComponent } from './components/navigationburger/navigationburger.component';
 import { MaincenterComponent } from './components/maincenter/maincenter.component';
+import { FreelanceArtComponent } from './components/freelance-art/freelance-art.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { MaincenterComponent } from './components/maincenter/maincenter.componen
     HeaderComponent,
     FooterComponent,
     NavigationburgerComponent,
-    MaincenterComponent
+    MaincenterComponent,
+    FreelanceArtComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

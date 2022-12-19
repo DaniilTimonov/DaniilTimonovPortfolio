@@ -3,3 +3,13 @@
     height: 500px;
     border: 2px solid black;  
   }
+  .photo_card {
+    width: 200px;
+    height:200px;
+    background-image: url(src\assets\images\profilephoto\photoprofile.png);
+    background-size: cover;
+  }
+ p {
+  width: 500px;
+  height: 400px;
+ }
