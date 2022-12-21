@@ -20,6 +20,8 @@ name:'open full', classtyle: 'width:200px; height:150px; padding-top:20px' },
   { id: 9, imgs: 'assets/images/freelance/freelance09.jpg' ,
   name:'open full' , classtyle: '' },
   { id: 10, imgs: 'assets/images/freelance/freelance10.jpg' ,
-  name:'open full' , classtyle: '' }
+  name:'open full' , classtyle: '' },
+  { id: 11, imgs: 'assets/images/freelance/freelance11.jpg' ,
+  name:'open full' , classtyle: 'width:100%; height:40px; padding-top:75px' }
 
 ];
