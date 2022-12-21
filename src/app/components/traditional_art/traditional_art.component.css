@@ -3,6 +3,7 @@
   width: 1200px;
   height: 100%;
   border: 2px solid black;  
+  background-color: #ffcc01;
 }
 .heroes {
  width: 1000px;

@@ -1,13 +1,7 @@
 <nav class="navigationburger">
-    <a routerLink= "/main">Главная</a>  
-    <p></p>
-    <a routerLink= "/traditionalart">Рисунки от руки</a>
-    <p></p>
-    <a routerLink= "/digitalgraphic">Компьютерная графика</a>
-    <p></p>
-    <a routerLink= "/clothdrawing">Рисунки на одежде</a>
-    <p></p>
-    <a routerLink= "/freelanceart">Фриланс работы</a>
-    <p></p>
-    <a routerLink= "/contacts">Контакты</a>
+<ul class="navigation">
+    <li class="hoverli" *ngFor="let elem of NavigationData">
+        <p  ><a  routerLink={{elem.link}}>{{elem.title}} </a></p> 
+    </li>
+</ul>
 </nav>

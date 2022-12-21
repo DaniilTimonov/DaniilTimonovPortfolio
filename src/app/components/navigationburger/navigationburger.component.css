@@ -8,13 +8,30 @@ flex-direction: column;
 
 padding-left: 900px;
 }
+
+
+
+
+li {
+  list-style-type: none;
+}
+.navigation {
+  width: 500px;
+}
 p, a {
-  font-size: 16pt;
+  font-size: 14pt;
   margin: 0 24px;
   padding: 2px;
   text-decoration:none;
-  color: white;
+  color: #46423f;
 }
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px) {
   .navigationburger{
@@ -23,3 +40,6 @@ p, a {
 
 
   }
+
+
+
