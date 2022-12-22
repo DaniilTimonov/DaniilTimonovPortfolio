@@ -11,18 +11,24 @@ import { Input } from '@angular/core';
 })
 export class DrawingOnCloth implements OnInit {
   heroes = HEROES;
+  check:boolean = false;
+  fadeblack:boolean = false;
 
   constructor() { }
 
   selectedHero?: Hero;
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
+    this.check = true;
+    this.fadeblack = true;
   }
   onClose() {
     delete this.selectedHero ;
+    this.check = false;
+    this.fadeblack = false;
   }
-
 
   ngOnInit(): void {
   }
 }
+

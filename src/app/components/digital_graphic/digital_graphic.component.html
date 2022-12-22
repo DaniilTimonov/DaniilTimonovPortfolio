@@ -1,8 +1,9 @@
-<div class="terran_units_page">
+<div class="terran_units_page" [class.backgroundfade]="fadeblack">
+ 
     <h2 class="terranunitsheading">Zerg units</h2>
-    <ul class="heroes">
+    <ul class="heroes "  [class.opacityclass]="check"  >
       <li *ngFor="let hero of heroes">
-        <button [class.selected]="hero === selectedHero" type="button" (click)="onSelect(hero)">
+        <button  [class.selected]="hero === selectedHero" type="button" (click)="onSelect(hero)">
           <span class="badge">{{hero.id}}</span>
     
            
@@ -11,16 +12,17 @@
         </button>
       </li>
     </ul>
+        
     
-    <div class="openedimage" *ngIf="selectedHero">
-      <button close (click)="onClose()">Close</button>
+    <article class="openedimage" *ngIf="selectedHero">
+      <div class="openedimageclose" close (click)="onClose()"></div>
       <img class="imgsstil" src={{selectedHero.imgs}}>
       <div>id: {{selectedHero.id}}</div>
       <div>
         <label for="hero-name">Hero name: </label>
         <input id="hero-name" [(ngModel)]="selectedHero.imgs" placeholder="name">
-        <a href="{{selectedHero.imgs}}" [(ngModel)]="selectedHero.imgs" placeholder="name"> {{selectedHero.name}}
+        <a href="{{selectedHero.imgs}}" target="_blank" [(ngModel)]="selectedHero.imgs" placeholder="name"> {{selectedHero.name}}
     </a>
       </div>
-    </div>
+    </article>
     </div>
