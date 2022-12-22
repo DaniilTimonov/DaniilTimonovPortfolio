@@ -105,7 +105,8 @@
    background-image: url('src/assets/images/ui/ui_opened_picture_background.png');
   
    background-size: contain;
-
+   background-repeat: no-repeat;
+    
    
   
   }
@@ -133,7 +134,7 @@
     margin-right: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    
+
     }
     .openedimageclose:hover {
       transform: scale(1.2);

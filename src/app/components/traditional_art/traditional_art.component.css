@@ -106,7 +106,7 @@ display: flex;
 
  background-size: contain;
 
-
+ background-repeat: no-repeat;
 
 }
 .backgroundfade {
@@ -133,7 +133,7 @@ display: flex;
   margin-right: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  
+
   }
   .openedimageclose:hover {
     transform: scale(1.2);
