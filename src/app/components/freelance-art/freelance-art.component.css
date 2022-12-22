@@ -101,7 +101,7 @@ display: flex;
   
   width: 700px;
   height: 800px;
- bottom: 650px;
+  bottom: 600px;
  background-image: url('src/assets/images/ui/ui_opened_picture_background.png');
 
  background-size: contain;
