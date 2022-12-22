@@ -6,7 +6,7 @@
 display: flex;
 flex-direction: column;
 
-padding-left: 900px;
+padding-left: 820px;
 }
 
 
@@ -14,9 +14,10 @@ padding-left: 900px;
 
 li {
   list-style-type: none;
+  width: 200px;
 }
 .navigation {
-  width: 500px;
+
 }
 p, a {
   font-size: 14pt;
@@ -27,6 +28,31 @@ p, a {
 }
 
 
+
+.container
+{
+  perspective: 320px;
+}
+
+.btn
+{
+  display: block;
+  margin: 10px 0;
+  width: 258px;
+  height: 100%;
+  border: none;
+  background-color: #ffcc01;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
+}
+.btn2:hover {
+  transform: rotateX(-15deg);
+  box-shadow: 0 -15px 15px #ffcc01;
+}
 
 
 
