@@ -1,4 +1,4 @@
-export interface Hero {
+export interface Picture {
     id : number;
     imgs: string;
     name: string;

@@ -6,7 +6,8 @@
 display: flex;
 flex-direction: column;
 
-padding-left: 820px;
+padding-left: 690px;
+padding-top: 20px;
 }
 
 
@@ -14,7 +15,7 @@ padding-left: 820px;
 
 li {
   list-style-type: none;
-  width: 200px;
+  width: 180px;
 }
 .navigation {
 
@@ -37,7 +38,7 @@ p, a {
 .btn
 {
   display: block;
-  margin: 10px 0;
+  margin: 4px 0;
   width: 258px;
   height: 100%;
   border: none;

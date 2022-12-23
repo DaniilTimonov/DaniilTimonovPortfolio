@@ -1,11 +1,13 @@
 .headerccenter {
      width: 1203px;
     height: 231px;
-    background-color: #FFC85A;
+/*     background-color: #FFC85A; */
     display: flex; 
+    background-image: url('src/assets/images/ui/uibanner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 
-
-    -moz-border-radius-topleft: 66px;
+/*     -moz-border-radius-topleft: 66px;
     -webkit-border-top-left-radius: 66px;
      border-top-left-radius: 66px;
     -moz-border-radius-topright: 5px;
@@ -16,7 +18,7 @@
     border-bottom-right-radius: 5px;
     -moz-border-radius-bottomleft: 5px;
     -webkit-border-bottom-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
 
 
 

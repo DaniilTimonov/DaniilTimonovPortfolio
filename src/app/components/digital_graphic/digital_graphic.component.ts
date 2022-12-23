@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Hero } from 'src/app/hero';
-import { HEROES } from 'src/app/digital_art_container';
+import { Picture } from 'src/app/picture';
+import { PICTURES } from 'src/app/digital_art_container';
 import { Input } from '@angular/core';
 
 
@@ -10,20 +10,20 @@ import { Input } from '@angular/core';
   styleUrls: ['./digital_graphic.component.css']
 })
 export class DigitalGraphic implements OnInit {
-  heroes = HEROES;
+  heroes = PICTURES;
   check:boolean = false;
   fadeblack:boolean = false;
 
   constructor() { }
 
-  selectedHero?: Hero;
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
+  selectedPicture?: Picture;
+  onSelect(picture: Picture): void {
+    this.selectedPicture = picture;
     this.check = true;
     this.fadeblack = true;
   }
   onClose() {
-    delete this.selectedHero ;
+    delete this.selectedPicture ;
     this.check = false;
     this.fadeblack = false;
   }

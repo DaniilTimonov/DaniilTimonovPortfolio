@@ -1,6 +1,6 @@
-import { Hero } from './hero';
+import { Picture } from './picture';
 
-export const HEROES: Hero[] = [
+export const PICTURES: Picture[] = [
   { id: 1, imgs: 'assets/images/freelance/freelance01.jpg' , 
 name:'open full', classtyle: 'width:200px; height:150px; padding-top:20px' },
   { id: 2, imgs: 'assets/images/freelance/freelance02.jpg',

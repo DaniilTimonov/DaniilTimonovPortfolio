@@ -1,7 +1,9 @@
 .footerccenter {
     width: 1203px;
     height: 50px;
-    background-color: #FFC85A;
+    background-image: url('src/assets/images/ui/uifooter.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 
     -moz-border-radius-topright: 5px;
 -webkit-border-top-right-radius: 5px;

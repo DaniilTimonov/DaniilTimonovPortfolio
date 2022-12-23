@@ -1,27 +1,27 @@
-<div class="terran_units_page" [class.backgroundfade]="fadeblack">
+<div class="digital_graphic_page" [class.backgroundfade]="fadeblack">
  
     <h2 class="terranunitsheading">Zerg units</h2>
     <ul class="heroes "  [class.opacityclass]="check"  >
-      <li *ngFor="let hero of heroes">
-        <button  [class.selected]="hero === selectedHero" type="button" (click)="onSelect(hero)">
-          <span class="badge">{{hero.id}}</span>
+      <li *ngFor="let picture of heroes">
+        <button  [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
+          <span class="badge">{{picture.id}}</span>
     
            
-          <img  class="imgss" src={{hero.imgs}}>
+          <img  class="imgss" src={{picture.imgs}}>
     
         </button>
       </li>
     </ul>
         
     
-    <article class="openedimage" *ngIf="selectedHero">
+    <article class="openedimage" *ngIf="selectedPicture">
       <div class="openedimageclose" close (click)="onClose()"></div>
-      <img class="imgsstil" src={{selectedHero.imgs}}>
-      <div>id: {{selectedHero.id}}</div>
+      <img class="imgsstil" src={{selectedPicture.imgs}}>
+      <div>id: {{selectedPicture.id}}</div>
       <div>
-        <label for="hero-name">Hero name: </label>
-        <input id="hero-name" [(ngModel)]="selectedHero.imgs" placeholder="name">
-        <a href="{{selectedHero.imgs}}" target="_blank" [(ngModel)]="selectedHero.imgs" placeholder="name"> {{selectedHero.name}}
+        <label for="picture-name">Hero name: </label>
+        <input id="picture-name" [(ngModel)]="selectedPicture.imgs" placeholder="name">
+        <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name"> {{selectedPicture.name}}
     </a>
       </div>
     </article>

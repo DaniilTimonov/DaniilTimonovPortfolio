@@ -1,9 +1,11 @@
 
-.terran_units_page {
+.digital_graphic_page {
     width: 1200px;
     height: 900px;
     border: 2px solid black;  
-    background-color: #ffcc01;
+    /* background-color: #ffcc01; */
+    background-image: url('src/assets/images/ui/ui_background_main.png');
+    background-size: contain;
   }
   .heroes {
    width: 1000px;
@@ -111,7 +113,9 @@
   
   }
   .backgroundfade {
-    background-color: black;
+    
+ background-image: url('src/assets/images/ui/blackfade.png') ;
+ background-size: contain;
   }
   .imgsstil {
     width: 70%;
