@@ -14,6 +14,7 @@ import { NavigationburgerComponent } from './components/navigationburger/navigat
 import { MaincenterComponent } from './components/maincenter/maincenter.component';
 import { FreelanceArtComponent } from './components/freelance-art/freelance-art.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
+import { FavouritepicturessliderComponent } from './components/favouritepicturesslider/favouritepicturesslider.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     NavigationburgerComponent,
     MaincenterComponent,
     FreelanceArtComponent,
-    ContactsComponent
+    ContactsComponent,
+    FavouritepicturessliderComponent
   ],
   imports: [
     BrowserModule,

@@ -1,13 +1,7 @@
 <div class="contacts_page">
-
+<div class="contact_boxes_container">
 <div class="contactboxes" *ngFor="let contacbox of contactboxes">
-    
-        <div class="contactbox">{{contacbox.imgs}}</div>
-    
-</div>
-
-
-
-
-
+           <a href={{contacbox.src}} target="_blank"> <img class="contactbox" src={{contacbox.imgs}}> </a>
+ </div>
+ </div>
 </div>
