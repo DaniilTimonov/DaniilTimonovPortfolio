@@ -20,3 +20,7 @@
     -webkit-border-bottom-left-radius: 5px;
     border-bottom-left-radius: 5px; */
 }
+.container_for_havigation {
+ 
+    display: flex;
+}
