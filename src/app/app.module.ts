@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { CarouselModule } from 'primeng/carousel';
+import { StyleClassModule } from 'primeng/styleclass';
+
 import {AppRoutingModule} from './app-routing.module';
 
 import { AppComponent } from './app.component';
@@ -15,6 +18,7 @@ import { MaincenterComponent } from './components/maincenter/maincenter.componen
 import { FreelanceArtComponent } from './components/freelance-art/freelance-art.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { FavouritepicturessliderComponent } from './components/favouritepicturesslider/favouritepicturesslider.component';
+import { HeadersliderComponent } from './components/interfaceelements/headerslider/headerslider.component';
 
 @NgModule({
   declarations: [
@@ -28,12 +32,15 @@ import { FavouritepicturessliderComponent } from './components/favouritepictures
     MaincenterComponent,
     FreelanceArtComponent,
     ContactsComponent,
-    FavouritepicturessliderComponent
+    FavouritepicturessliderComponent,
+    HeadersliderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    CarouselModule,
+		StyleClassModule
   ],
   providers: [],
   bootstrap: [AppComponent]
