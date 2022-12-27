@@ -7,7 +7,4 @@ export const CONTACTSBOXES: ContactBox[] = [
  classtyle: '', src: 'https://vk.com/dtimonov88' },
  { id: 2, imgs: '/assets/images/contacticons/mailru.png',
  classtyle: '', src: 'daniil.timonov1988@mail.ru' },
-  
-
-
-];
+  ];

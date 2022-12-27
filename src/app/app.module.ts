@@ -19,7 +19,8 @@ import { FreelanceArtComponent } from './components/freelance-art/freelance-art.
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { FavouritepicturessliderComponent } from './components/favouritepicturesslider/favouritepicturesslider.component';
 import { HeadersliderComponent } from './components/interfaceelements/headerslider/headerslider.component';
-import { TraditionalartsliderComponent } from './traditionalartslider/traditionalartslider.component';
+import { TraditionalartsliderComponent } from './components/interfaceelements/traditionalartslider/traditionalartslider.component';
+import { DigitalgraphicsliderComponent } from './components/interfaceelements/digitalgraphicslider/digitalgraphicslider.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { TraditionalartsliderComponent } from './traditionalartslider/traditiona
     ContactsComponent,
     FavouritepicturessliderComponent,
     HeadersliderComponent,
-    TraditionalartsliderComponent
+    TraditionalartsliderComponent,
+    DigitalgraphicsliderComponent
   ],
   imports: [
     BrowserModule,
