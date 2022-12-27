@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-headerslider',
-  templateUrl: './headerslider.component.html',
-  styleUrls: ['./headerslider.component.css']
+  selector: 'app-traditionalartslider',
+  templateUrl: './traditionalartslider.component.html',
+  styleUrls: ['./traditionalartslider.component.css']
 })
-export class HeadersliderComponent implements OnInit {
-	title = 'GFG';
+export class TraditionalartsliderComponent implements OnInit {
+
+  title = 'TRADITIONALARTSLIDER';
 
 	images: any[] = [
 		{
@@ -52,8 +53,6 @@ export class HeadersliderComponent implements OnInit {
 			title: ''
 		}
 	];
-
-
 
 
 

@@ -13,7 +13,6 @@ z-index: 2;
 
 
 
-
 li {
   list-style-type: none;
   width: 180px;
@@ -55,11 +54,6 @@ p, a {
   transform: rotateX(-15deg);
   box-shadow: 0 -15px 15px #ffcc01;
 }
-
-
-
-
-
 
 
 @media screen and (max-width: 1024px) {

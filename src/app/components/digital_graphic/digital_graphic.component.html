@@ -1,6 +1,10 @@
+
+
+ 
 <div class="digital_graphic_page" [class.backgroundfade]="fadeblack">
  
-    <h2 class="terranunitsheading">Zerg units</h2>
+
+    <h2 class="terranunitsheading"></h2>
     <ul class="heroes "  [class.opacityclass]="check"  >
       <li *ngFor="let picture of heroes">
         <button  [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
@@ -25,4 +29,5 @@
     </a>
       </div>
     </article>
+    
     </div>

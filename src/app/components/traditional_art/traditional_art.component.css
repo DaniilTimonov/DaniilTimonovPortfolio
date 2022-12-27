@@ -141,3 +141,6 @@ display: flex;
   .openedimageclose:hover {
     transform: scale(1.2);
   }
+  .traditionalartslider {
+    width: 500px;
+  }
