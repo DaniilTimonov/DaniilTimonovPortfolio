@@ -12,42 +12,42 @@ export class TraditionalartsliderComponent implements OnInit {
 	images: any[] = [
 		{
 			previewImageSrc:
-'assets/images/favouritesslider/classicart6.jpg',
+'assets/images/handdraw/classicart1.jpg',
 
 			alt: '',
 			title: ''
 		},
 		{
 			previewImageSrc:
-'assets/images/favouritesslider/clothdraw02.jpg',
+'assets/images/handdraw/classicart5.jpg',
 
 			alt: '',
 			title: ''
 		},
 		{
 			previewImageSrc:
-				'assets/images/favouritesslider/digitaldraw02.jpg',
+				'assets/images/handdraw/classicart4.jpg',
 	
 			alt: '',
 			title: ''
 		},
 		{
 			previewImageSrc:
-			'assets/images/favouritesslider/digitaldraw07.jpg',
+			'assets/images/handdraw/classicart3.jpg',
 		
 			alt: '',
 			title: ''
 		},
 		{
 			previewImageSrc:
-			'assets/images/favouritesslider/freelance03.jpg',
+			'assets/images/handdraw/classicart7.jpg',
 		
 			alt: '',
 			title: ''
 		},
 		{
 			previewImageSrc:
-			'assets/images/favouritesslider/freelance08.jpg',
+			'assets/images/handdraw/classicart6.jpg',
 		
 			alt: '',
 			title: ''
