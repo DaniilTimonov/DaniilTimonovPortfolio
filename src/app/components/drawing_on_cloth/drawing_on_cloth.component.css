@@ -86,6 +86,12 @@
     height:200px ;
   }
 
+  .drawingonclothtslider {
+    position: absolute;
+    z-index: 2;
+    margin-left: 350px;
+  }
+
 .openedimage {
 /*   position: absolute;
 top: 10%;

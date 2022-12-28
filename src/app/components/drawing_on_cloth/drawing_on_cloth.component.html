@@ -1,5 +1,10 @@
 <div class="drawing_on_cloth_page" [class.backgroundfade]="fadeblack">
-    <h2 class="terranunitsheading">Protoss units</h2>
+
+  <div class="drawingonclothtslider">
+    <app-drawingonclothslider></app-drawingonclothslider>
+  </div>
+
+    <h2 class="terranunitsheading"></h2>
     <ul class="heroes" [class.opacityclass]="check">
       <li *ngFor="let picture of heroes">
         <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">

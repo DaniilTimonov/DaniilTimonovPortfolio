@@ -21,6 +21,8 @@ import { FavouritepicturessliderComponent } from './components/favouritepictures
 import { HeadersliderComponent } from './components/interfaceelements/headerslider/headerslider.component';
 import { TraditionalartsliderComponent } from './components/interfaceelements/traditionalartslider/traditionalartslider.component';
 import { DigitalgraphicsliderComponent } from './components/interfaceelements/digitalgraphicslider/digitalgraphicslider.component';
+import { DrawingonclothsliderComponent } from './components/interfaceelements/drawingonclothslider/drawingonclothslider.component';
+import { FreelanceartsliderComponent } from './components/interfaceelements/freelanceartslider/freelanceartslider.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { DigitalgraphicsliderComponent } from './components/interfaceelements/di
     FavouritepicturessliderComponent,
     HeadersliderComponent,
     TraditionalartsliderComponent,
-    DigitalgraphicsliderComponent
+    DigitalgraphicsliderComponent,
+    DrawingonclothsliderComponent,
+    FreelanceartsliderComponent
   ],
   imports: [
     BrowserModule,
