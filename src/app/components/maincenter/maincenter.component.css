@@ -40,12 +40,22 @@
 
  @media screen and (max-width: 480px) {
   .main_centerpage {
-    width: 600px;
-    height: 700px;
+    width: 383px;
+    height: 500px;
+    margin:0px auto;
   }
 
   p {
-    font-size: 30px;
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+    margin-left: 40px;
+  
+   
+  }
+  .blockdetails {
+    width: 383px;
+
   }
 
 

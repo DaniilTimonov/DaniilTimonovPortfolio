@@ -18,3 +18,12 @@ border-bottom-left-radius: 48px;
 .contacts {
     font-size: 20px;
 }
+
+@media screen and (max-width: 480px) {
+      .footerccenter {
+        width: 390px;
+        background-image: none;
+        background-color: teal;
+        margin:0px auto;
+      }
+   }

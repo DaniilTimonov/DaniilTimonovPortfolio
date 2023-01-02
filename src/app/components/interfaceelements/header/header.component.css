@@ -30,10 +30,11 @@
 
 
 .headerccenter {
-    width: 600px;
+    width: 383px;
+    margin:0px auto;
     height: 100px;
     background-color: red;
-    background-image: url('src/assets/images/ui/mobile_template_header.png');
+    background-image: none;
 
 }
 }
