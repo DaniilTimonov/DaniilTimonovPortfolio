@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { SidebarModule } from 'ng-sidebar'; /* for mobile slider */
+
+
 import { CarouselModule } from 'primeng/carousel';
 import { StyleClassModule } from 'primeng/styleclass';
 
@@ -30,6 +33,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+import { MobilenavigationsliderComponent } from './components/interfaceelements/mobilenavigationslider/mobilenavigationslider.component';
 
 
 
@@ -50,7 +54,8 @@ import { MatDividerModule } from '@angular/material/divider';
     TraditionalartsliderComponent,
     DigitalgraphicsliderComponent,
     DrawingonclothsliderComponent,
-    FreelanceartsliderComponent
+    FreelanceartsliderComponent,
+    MobilenavigationsliderComponent
   ],
   imports: [
     BrowserModule,
@@ -64,6 +69,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
+    SidebarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -65,8 +65,9 @@ p, a {
   }
 
   @media screen and (max-width: 480px) {
-  .navigation {
-    display: flex;
+  
+    .navigation {
+    display: none;
     margin-left: -500px;
   }
    }

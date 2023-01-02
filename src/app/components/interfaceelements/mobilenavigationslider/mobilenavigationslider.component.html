@@ -1,0 +1,20 @@
+<ng-sidebar-container class="mobilenavigationcontainer">
+    <!-- Sidebar -->
+  <ng-sidebar [opened] = "opened">
+  <p>Sidebar Contents</p>
+  <button (click) = "toggleSidebar()">Close</button>
+  <ul class="menu">
+    <li><a href="">Dashboard</a></li>
+    <li><a href="">Dashboard</a></li>
+    <li><a href="">Dashboard</a></li>
+  </ul>
+  </ng-sidebar>
+  <div ng-sidebar-content>
+    <!-- page contents -->
+  <button (click)="toggleSidebar()"> 
+  Open Sidebar
+  
+  </button>
+  
+  </div>
+  </ng-sidebar-container>
