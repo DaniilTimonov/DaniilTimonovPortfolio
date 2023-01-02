@@ -38,6 +38,18 @@
 
  }
 
+ @media screen and (max-width: 480px) {
+  .main_centerpage {
+    width: 600px;
+    height: 700px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+
+ }
 
 
 

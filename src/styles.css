@@ -44,3 +44,5 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px auto;
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

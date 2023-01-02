@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-maincenter',
   templateUrl: './maincenter.component.html',
@@ -7,12 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MaincenterComponent implements OnInit {
 
-  
+
+  constructor() {}
 
   
-  
-  
-  constructor() { }
 
   ngOnInit(): void {
   }

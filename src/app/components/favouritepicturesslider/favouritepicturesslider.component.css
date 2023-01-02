@@ -24,4 +24,11 @@ h3{
 .p-carousel-container {
 	width: 100px;
 }
+@media screen and (max-width: 480px) {
 
+.favouriteslidermobile {
+	display: none;
+}
+
+
+}
