@@ -5,6 +5,13 @@ margin-left: 290px;
 position: absolute;
 z-index: 3;
 
+
+}
+.closebutton {
+    background-image: url('src/assets/images/ui/exit_opened_img.png');
+    background-size: contain;
+    width: 41px;
+    height: 41px;
 }
 .mobilenavigationcontainer {
     display: none;
@@ -12,11 +19,15 @@ z-index: 3;
 }
 
 ::ng-deep .ng-sidebar {
-    background-color: #f4f4f4;
+    background-image: url('src/assets/images/ui/left_side_mobile_menu.png');
+    
     width: 300px;
     padding: 2em 3em;
     box-shadow: 0 0 2.5em rgba(85, 85, 85, 0.5);
 }
+
+
+
 
 .burgerbutton {
     width: 37px;
@@ -30,7 +41,29 @@ button {
 }
 
 
+.hoomelandbutton {
+   
+    background-image: url('src/assets/images/ui/home_button.png');
+    width: 56px;
+    height: 53px;
+    position: absolute;
+ z-index: 4;
+    margin-left: 185px;
+    margin-top: 20px;
+    display: none;
+    
+}
+.offhomebuttoncss {
+    display: none;
+    background: red;
+}
+
+
 @media screen and (max-width: 480px) {
+
+.hoomelandbutton {
+    display: block;
+}
 *{
     margin: 0px auto;
 }

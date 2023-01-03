@@ -1,8 +1,12 @@
+
+<div [class.offhomebuttoncss]="offhomebutton" >
+<button class="hoomelandbutton" ><a routerLink="/main">sdsd</a></button> </div>
 <ng-sidebar-container class="mobilenavigationcontainer">
+  
     <!-- Sidebar -->
   <ng-sidebar [opened] = "opened">
-  <p>Sidebar Contents</p>
-  <button (click) = "toggleSidebar()">Close</button>
+
+  <button class="closebutton" (click) = "toggleSidebar()"></button>
   <ul class="menu">
     <li class="hoverli  container" *ngFor="let elem of NavigationData">
       <p class="btn btn2 "  ><a  routerLink={{elem.link}}>{{elem.title}} </a></p> 
@@ -19,8 +23,3 @@
   </ng-sidebar-container>
 
 
-<!-- <ul class="menu">
-  <li><a href="">Dashboard</a></li>
-  <li><a href="">Dashboard</a></li>
-  <li><a href="">Dashboard</a></li>
-</ul> -->

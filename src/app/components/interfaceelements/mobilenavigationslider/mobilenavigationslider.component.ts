@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mobilenavigationslider.component.css']
 })
 export class MobilenavigationsliderComponent implements OnInit {
+ 
   NavigationData = [
     {
       id: 0,
@@ -38,17 +39,14 @@ export class MobilenavigationsliderComponent implements OnInit {
       title:'Контакты',
       link:'/contacts'
     }
-  
-  
   ]
   
-  
-  
-  
+  offhomebutton:boolean = false;
   opened = false;
 
   toggleSidebar() {
     this.opened = !this.opened;
+    this.offhomebutton = !this.offhomebutton;
   }
   constructor() { }
 
