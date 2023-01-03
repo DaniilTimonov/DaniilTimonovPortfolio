@@ -17,10 +17,87 @@ z-index: 3;
     padding: 2em 3em;
     box-shadow: 0 0 2.5em rgba(85, 85, 85, 0.5);
 }
-@media screen and (max-width: 480px) {
 
+.burgerbutton {
+    width: 37px;
+    height: 39px;
+    background-image: url('src/assets/images/ui/burgerscifi.png');
+    margin-top: 30px;
+    
+}
+button {
+    background: none;
+}
+
+
+@media screen and (max-width: 480px) {
+*{
+    margin: 0px auto;
+}
     .mobilenavigationcontainer {
         display: block;
     }
     
+    .burgerbutton {
+     
+        margin-top: 30px;
+     margin-left: 60px;   
     }
+
+    }
+
+    @media screen and (max-width: 393px) {
+
+        .mobilenavigationcontainer {
+            display: block;
+        }
+        
+        .burgerbutton {
+         
+            margin-top: 30px;
+         margin-left: 20px;   
+        }
+    
+        }
+
+        @media screen and (max-width: 452px) {
+
+            .mobilenavigationcontainer {
+                display: block;
+            }
+            
+            .burgerbutton {
+             
+                margin-top: 30px;
+             margin-left: 50px;   
+            }
+        
+            }
+
+        
+            @media screen and (max-width: 432px) {
+
+                .mobilenavigationcontainer {
+                    display: block;
+                }
+                
+                .burgerbutton {
+                 
+                    margin-top: 30px;
+                 margin-left: 40px;   
+                }
+            
+                }
+                @media screen and (max-width: 412px) {
+
+                    .mobilenavigationcontainer {
+                        display: block;
+                    }
+                    
+                    .burgerbutton {
+                     
+                        margin-top: 30px;
+                     margin-left: 30px;   
+                    }
+                
+                    }
