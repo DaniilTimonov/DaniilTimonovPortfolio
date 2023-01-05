@@ -12,32 +12,39 @@ export class MobilenavigationsliderComponent implements OnInit {
     {
       id: 0,
       title:'Главная',
-      link:'/main'
+      link:'/main',
+      pstyle:'font-size:30px;margin-left:60px;position:absolute;margin-top:17px'
+   
     },
     {
       id: 1,
-      title:'Рисунки',
-      link:'/traditionalart'
+      title:'Традиционная графика',
+      link:'/traditionalart',
+      pstyle:'font-size:20px;margin-left:20px;position:absolute;margin-top:30px'
     },
     {
       id: 2,
       title:'Компьютерная графика',
-      link:'/digitalgraphic'
+      link:'/digitalgraphic',
+      pstyle:'font-size:20px;margin-left:20px;position:absolute;margin-top:30px'
     },
     {
       id: 3,
       title:'Рисунки на одежде',
-      link:'/clothdrawing'
+      link:'/clothdrawing',
+      pstyle:'font-size:20px;margin-left:20px;position:absolute;margin-top:30px'
     },
     {
       id: 4,
       title:'Фриланс работы',
-      link:'/freelanceart'
+      link:'/freelanceart',
+      pstyle:'font-size:20px;margin-left:20px;position:absolute;margin-top:30px'
     },
     {
       id: 5,
       title:'Контакты',
-      link:'/contacts'
+      link:'/contacts',
+      pstyle:'font-size:30px;margin-left:60px;position:absolute;margin-top:17px'
     }
   ]
   

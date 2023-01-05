@@ -10,7 +10,8 @@ NavigationData = [
   {
     id: 0,
     title:'Главная',
-    link:'/main'
+    link:'/main',
+
   },
   {
     id: 1,

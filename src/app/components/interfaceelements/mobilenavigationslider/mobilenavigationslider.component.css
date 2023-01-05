@@ -7,11 +7,37 @@ z-index: 3;
 
 
 }
+.btn {
+    align-items: center;
+}
+a {
+    color: yellow;
+    text-decoration:none;
+}
+li {
+    list-style-type :none;
+    padding-left: 0;
+  
+}
+.imganimationsection {
+    width: 252px;
+    height: 62px;
+
+}
+
+.sectionmobile {
+    background-image: url('src/assets/images/ui/mobilemenuslidersection.png')  ;
+    width: 252px;
+    height: 62px;
+    margin-left: -70px;
+
+}
 .closebutton {
     background-image: url('src/assets/images/ui/exit_opened_img.png');
     background-size: contain;
     width: 41px;
     height: 41px;
+    margin-left: 200px;
 }
 .mobilenavigationcontainer {
     display: none;

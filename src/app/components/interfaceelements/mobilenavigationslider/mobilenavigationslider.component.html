@@ -1,6 +1,6 @@
 
 <div [class.offhomebuttoncss]="offhomebutton" >
-<button class="hoomelandbutton" ><a routerLink="/main">sdsd</a></button> </div>
+<button class="hoomelandbutton" ><a routerLink="/main"></a></button> </div>
 <ng-sidebar-container class="mobilenavigationcontainer">
   
     <!-- Sidebar -->
@@ -8,9 +8,12 @@
 
   <button class="closebutton" (click) = "toggleSidebar()"></button>
   <ul class="menu">
-    <li class="hoverli  container" *ngFor="let elem of NavigationData">
-      <p class="btn btn2 "  ><a  routerLink={{elem.link}}>{{elem.title}} </a></p> 
+    <li  class="hoverli  container sectionmobile" *ngFor="let elem of NavigationData">
+      
+      <p style={{elem.pstyle}}  class="btn btn2 "  ><a   routerLink={{elem.link}}>{{elem.title}} </a></p>
+
   </li>
+  
   </ul>
   </ng-sidebar>
   <div ng-sidebar-content>
