@@ -144,3 +144,15 @@ display: flex;
   .traditionalartslider {
     width: 500px;
   }
+  @media screen and (max-width: 480px) {
+
+.traditionalartslider {
+  display: none;
+}
+.traditional_art_page {
+  width: 383px;
+  height: 500px;
+}
+
+
+  }
