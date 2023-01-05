@@ -5,6 +5,8 @@
 
 
 <h2 class="terranunitsheading"></h2>
+
+
 <ul class="heroes" [class.opacityclass]="check">
   <li *ngFor="let picture of heroes">
     <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
@@ -16,6 +18,8 @@
     </button>
   </li>
 </ul>
+
+
 
 <div class="openedimage" *ngIf="selectedPicture">
   <div class="openedimageclose" close (click)="onClose()"></div>

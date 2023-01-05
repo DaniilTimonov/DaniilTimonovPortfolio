@@ -50,10 +50,11 @@ export class MobilenavigationsliderComponent implements OnInit {
   
   offhomebutton:boolean = false;
   opened = false;
-
+  ontopslider:boolean = false;
   toggleSidebar() {
     this.opened = !this.opened;
     this.offhomebutton = !this.offhomebutton;
+    this.ontopslider = !this.ontopslider;
   }
   constructor() { }
 

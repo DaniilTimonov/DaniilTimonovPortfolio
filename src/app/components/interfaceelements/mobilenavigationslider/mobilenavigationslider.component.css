@@ -3,9 +3,11 @@ ng-sidebar-container {
 height: 655px;
 margin-left: 290px;
 position: absolute;
-z-index: 3;
 
-
+}
+.totopslider {
+    z-index:70;
+    position: absolute;
 }
 .btn {
     align-items: center;
@@ -41,7 +43,8 @@ li {
 }
 .mobilenavigationcontainer {
     display: none;
-    margin-left: 0px;
+    margin-left: 33px;
+    z-index: 4;
 }
 
 ::ng-deep .ng-sidebar {
@@ -73,8 +76,8 @@ button {
     width: 56px;
     height: 60px;
     position: absolute;
- z-index: 4;
-    margin-left: 185px;
+ z-index: 23;
+    margin-left: 200px;
     margin-top: 20px;
     display: none;
     
@@ -100,7 +103,7 @@ button {
     .burgerbutton {
      
         margin-top: 30px;
-     margin-left: 60px;   
+     margin-left: 30px;   
     }
 
     }

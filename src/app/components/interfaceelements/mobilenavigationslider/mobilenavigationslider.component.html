@@ -4,8 +4,8 @@
  
   <button class="hoomelandbutton"><a style="color:black" routerLink="/main">_ </a></button>
  </div>
-
-<ng-sidebar-container class="mobilenavigationcontainer">
+<div [class.totopslider]="ontopslider">
+<ng-sidebar-container    class="mobilenavigationcontainer "  >
   
     <!-- Sidebar -->
   <ng-sidebar [opened] = "opened">
@@ -28,5 +28,5 @@
   
   </div>
   </ng-sidebar-container>
-
+</div>
 
