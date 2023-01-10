@@ -156,14 +156,17 @@ display: flex;
 .heroes {
   width: 320px;
   margin-left: 1px;
+  
 }
 .heroes li {
   width: 120px;
   height: 120px;
+ 
 }
 .heroes button {
   width: 120px;
   height: 120px;
+
  
 } 
 

@@ -148,3 +148,87 @@ display: flex;
   .openedimageclose:hover {
     transform: scale(1.2);
   }
+   /* mobile styles ------------------------------- */
+   @media screen and (max-width: 480px) {
+
+    .openedimageclose {
+      background-image: url('src/assets/images/ui/exit_opened_img.png');
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+      cursor: pointer;
+      transition: 1s;
+      margin-right: 1rem;
+      margin-left:290px;
+      margin-bottom: 20px;
+      margin-top: -20px;
+      z-index: 120;
+      position: absolute;
+  
+      }
+    
+    .drawing_on_cloth_page {
+      width: 383px;
+      height: 650px;
+    }
+
+
+.drawingonclothtslider {
+  display: none;
+}
+
+    .digitalartslider {
+      display: none;
+    }
+    .digital_graphic_page {
+      width: 383px;
+      height: 650px;
+    }
+    .heroes {
+      width: 320px;
+      margin-left: 1px;
+     
+    }
+    .heroes li {
+      width: 120px;
+      height: 120px;
+    
+    }
+    .heroes button {
+      width: 120px;
+      height: 120px;
+     
+    } 
+    
+    .imgss {
+      width: 90px;
+      height:90px ;
+    }
+    
+    .openedimage {
+    
+      display: flex;
+        position: relative;
+        flex-direction: column;
+      
+        
+        width: 341px;
+        height: 400px;
+       bottom: 400px;
+       background-image: url('src/assets/images/ui/ui_opened_picture_mobile_background.png');
+      
+       background-size: contain;
+      
+       background-repeat: no-repeat;
+      
+      }
+    .imgsstil {
+      width: 80%;
+      height: 80%;
+      object-fit: contain;
+    }
+    
+    
+    
+    
+      }
