@@ -93,14 +93,7 @@
   }
 
 .openedimage {
-/*   position: absolute;
-top: 10%;
-left: 30%;
-display: flex;
-flex-direction: column;
-align-items: center;
-z-index:2;   */
-/* old styles */
+
 
 display: flex;
   position: relative;
@@ -170,6 +163,7 @@ display: flex;
     .drawing_on_cloth_page {
       width: 383px;
       height: 650px;
+
     }
 
 
@@ -187,7 +181,8 @@ display: flex;
     .heroes {
       width: 320px;
       margin-left: 1px;
-     
+     position: absolute;
+     z-index: 50;
     }
     .heroes li {
       width: 120px;
@@ -211,10 +206,10 @@ display: flex;
         position: relative;
         flex-direction: column;
       
-        
+        z-index: 52;
         width: 341px;
         height: 400px;
-       bottom: 400px;
+       bottom: -90px;
        background-image: url('src/assets/images/ui/ui_opened_picture_mobile_background.png');
       
        background-size: contain;

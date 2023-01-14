@@ -2,7 +2,7 @@ import { Picture } from './picture';
 
 export const PICTURES: Picture[] = [
   { id: 1, imgs: 'assets/images/freelance/freelance01.jpg' , 
-name:'open full', classtyle: 'width:200px; height:150px; padding-top:20px' },
+name:'open full', classtyle: 'width:200px; height:150px; padding-top:20px'},
   { id: 2, imgs: 'assets/images/freelance/freelance02.jpg',
   name:'open full' , classtyle: 'width:200px; height:150px; padding-top:20px' },
   { id: 3, imgs: 'assets/images/freelance/freelance03.jpg' ,
