@@ -32,3 +32,20 @@
  
   justify-content: space-around;
 }
+
+@media screen and (max-width: 480px) {
+  .contacts_page {
+    width: 383px;
+    height: 650px;
+
+  }
+  .contactbox {
+    width: 90px ;
+    height: 90px;
+    flex: 1 1 auto;
+    margin: 0 5px;
+    transition: 1s;
+   
+  }
+
+}
