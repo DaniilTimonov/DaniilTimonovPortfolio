@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Picture } from 'src/app/picture';
 import { PICTURES } from 'src/app/cloth_art_container';
 import { Input } from '@angular/core';
+import { NgModel } from '@angular/forms';
 
 
 @Component({
