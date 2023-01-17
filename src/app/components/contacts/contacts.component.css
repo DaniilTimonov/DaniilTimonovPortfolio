@@ -34,6 +34,14 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .contact_boxes_container {
+    z-index: 20;
+  }
+  .contacts_page {
+    height: 450px;
+  }
+
   .contacts_page {
     width: 383px;
     height: 650px;
