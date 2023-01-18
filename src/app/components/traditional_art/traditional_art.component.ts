@@ -10,7 +10,7 @@ import { Input } from '@angular/core';
   styleUrls: ['./traditional_art.component.css']
 })
 export class TraditionalArt implements OnInit {
-  heroes = PICTURES;
+  pics = PICTURES;
   check:boolean = false;
   fadeblack:boolean = false;
 

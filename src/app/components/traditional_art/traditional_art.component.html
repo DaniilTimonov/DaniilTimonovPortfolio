@@ -1,35 +1,31 @@
 <div class="traditional_art_page" [class.backgroundfade]="fadeblack">
-<div class="traditionalartslider">
-  <app-traditionalartslider></app-traditionalartslider>
-</div>
-
-
-<h2 class="terranunitsheading"></h2>
-
-
-<ul class="heroes" [class.opacityclass]="check">
-  <li *ngFor="let picture of heroes">
-    <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
-      <span class="badge">{{picture.id}}</span>
-
-       
-      <img  class="imgss" src={{picture.imgs}}>
-
-    </button>
-  </li>
-</ul>
-
-
-
-<div class="openedimage" *ngIf="selectedPicture">
-  <div class="openedimageclose" close (click)="onClose()"></div>
-  <img class="imgsstil" src={{selectedPicture.imgs}}>
-  <div>id: {{selectedPicture.id}}</div>
-  <div>
-    <label for="picture-name">Hero name: </label>
-    <input id="picture-name" [(ngModel)]="selectedPicture.imgs" placeholder="name">
-    <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name"> {{selectedPicture.name}}
-</a>
+  <div class="traditionalartslider">
+    <app-traditionalartslider></app-traditionalartslider>
   </div>
-</div>
+  <div class="pics" [class.opacityclass]="check">
+    <div class="picturecard" *ngFor="let picture of pics" >
+      <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
+        <span class="badge">{{picture.id}}</span>
+
+
+        <img class="imgss" src={{picture.imgs}}  >
+
+      </button>
+    </div>
+  </div>
+
+
+
+  <div class="openedimage" *ngIf="selectedPicture">
+    <div class="openedimageclose" close (click)="onClose()"></div>
+    <img class="imgsstil" src={{selectedPicture.imgs}}>
+    <div>id: {{selectedPicture.id}}</div>
+    <div>
+      <label for="picture-name">Hero name: </label>
+      <input id="picture-name" [(ngModel)]="selectedPicture.imgs" placeholder="name">
+      <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name">
+        {{selectedPicture.name}}
+      </a>
+    </div>
+  </div>
 </div>

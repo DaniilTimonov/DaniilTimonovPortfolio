@@ -19,5 +19,17 @@ name:'open full', classtyle: '' },
   name:'open full', classtyle: '' },
   
   { id: 9, imgs: '/assets/images/handdraw/classicart9.jpg' ,
-  name:'open full' , classtyle: ''}
+  name:'open full' , classtyle: ''},
+  { id: 7, imgs: '/assets/images/handdraw/classicart7.jpg' ,
+  name:'open full', classtyle: '' },
+  { id: 8, imgs: '/assets/images/handdraw/classicart8.jpg' ,
+  name:'open full', classtyle: '' },
+  { id: 7, imgs: '/assets/images/handdraw/classicart7.jpg' ,
+  name:'open full', classtyle: '' },
+  { id: 8, imgs: '/assets/images/handdraw/classicart8.jpg' ,
+  name:'open full', classtyle: '' },
+  { id: 7, imgs: '/assets/images/handdraw/classicart7.jpg' ,
+  name:'open full', classtyle: '' },
+  { id: 8, imgs: '/assets/images/handdraw/classicart8.jpg' ,
+  name:'open full', classtyle: '' }
 ];

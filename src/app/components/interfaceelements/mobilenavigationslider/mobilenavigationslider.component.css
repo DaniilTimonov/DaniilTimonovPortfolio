@@ -43,8 +43,9 @@ li {
 }
 .mobilenavigationcontainer {
     display: none;
-    margin-left: 33px;
+    margin-left: -10px;
     z-index: 4;
+    margin-top: 0px;
 }
 
 ::ng-deep .ng-sidebar {
@@ -102,7 +103,7 @@ button {
     
     .burgerbutton {
      
-        margin-top: 30px;
+        margin-top: 40px;
      margin-left: 30px;   
     }
 
