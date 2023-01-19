@@ -236,7 +236,15 @@ display: flex;
     width: 500px;
   }
 
+  @media screen and (max-width: 1920px) {
+.openedimage {
+  bottom: 1250px;
+}
+
+  }
+
   /* mobile styles ------------------------------- */
+
   @media screen and (max-width: 480px) {
 
 .traditionalartslider {
