@@ -13,18 +13,14 @@
       </button>
     </div>
   </div>
-
-
-
   <div class="openedimage" *ngIf="selectedPicture">
 
     <div class="openedimageclose" close (click)="onClose()"></div>
     <div class="block_for_opened_image">
       <img class="imgsstil" src={{selectedPicture.imgs}}>
-      <div>id: {{selectedPicture.id}}</div>
+      
       <div>
-        <label for="picture-name">Hero name: </label>
-        <input id="picture-name" [(ngModel)]="selectedPicture.imgs" placeholder="name">
+
         <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name" >
         <!--   {{selectedPicture.name}} -->
         <div class="button_for_open_full">

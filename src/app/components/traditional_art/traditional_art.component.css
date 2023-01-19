@@ -28,12 +28,6 @@
   );
 }
 
-a {
-  z-index: 4000;
-  color:white;
-}
-
-
 
 .traditional_art_page {
   width: 1200px;
@@ -188,7 +182,7 @@ display: flex;
   height: 52px;
   background-image: url('src/assets/images/ui/open_full_button.png') ;
   background-size: contain;
-  margin-top: -27px;
+  margin-top: 10px;
   
 }
 .backgroundfade {
@@ -200,7 +194,7 @@ display: flex;
   background-size: contain;
   width: 342px;
   height: 200px;
-  margin-top: -100px;
+  margin-top: -64px;
 }
 
 .imgsstil {
