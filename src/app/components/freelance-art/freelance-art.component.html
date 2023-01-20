@@ -1,31 +1,35 @@
-<div class="freelance_art_page" [class.backgroundfade]="fadeblack">
-  <div class="freelanceartslider">
-    <app-freelanceartslider></app-freelanceartslider>
-  </div>
 
 
-    <h2 class="terranunitsheading"></h2>
-    <ul class="heroes" [class.opacityclass]="check">
-      <li *ngFor="let picture of heroes">
-        <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
-          <span class="badge">{{picture.id}}</span>
-    
-           
-          <img  class="imgss" src={{picture.imgs}} style={{picture.classtyle}}>
-    
-        </button>
-      </li>
-    </ul>
-    
-    <div class="openedimage" *ngIf="selectedPicture">
-      <div class="openedimageclose" close (click)="onClose()"></div>
-      <img class="imgsstil" src={{selectedPicture.imgs}} >
-      <div>id: {{selectedPicture.id}}</div>
-      <div>
-        <label for="picture-name">Hero name: </label>
-        <input id="picture-name" [(ngModel)]="selectedPicture.imgs" placeholder="name">
-        <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name"> {{selectedPicture.name}}
-    </a>
+    <div class="freelance_art_page" [class.backgroundfade]="fadeblack">
+      <div class="freelanceartslider">
+        <app-freelanceartslider></app-freelanceartslider>
       </div>
-    </div>
+      <div class="pics" [class.opacityclass]="check">
+        <div class="picturecard" *ngFor="let picture of pics">
+          <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
+            <span class="badge">{{picture.id}} </span>
+    
+    
+            <img class="imgss" src={{picture.imgs}}>
+    
+          </button>
+        </div>
+      </div>
+      <div class="openedimage" *ngIf="selectedPicture">
+    
+        <div class="openedimageclose" close (click)="onClose()"></div>
+        <div class="block_for_opened_image">
+          <img class="imgsstil" src={{selectedPicture.imgs}} style={{selectedPicture.classtyle}}>
+          
+          <div>
+    
+            <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name" >
+            <!--   {{selectedPicture.name}} -->
+            <div class="button_for_open_full">
+            </div> 
+            </a>
+          
+          </div>
+        </div>
+      </div>
     </div>

@@ -1,35 +1,33 @@
 <div class="drawing_on_cloth_page" [class.backgroundfade]="fadeblack">
-
   <div class="drawingonclothtslider">
     <app-drawingonclothslider></app-drawingonclothslider>
   </div>
-
- 
-  <ul class="heroes" [class.opacityclass]="check">
-    <li *ngFor="let picture of heroes">
+  <div class="pics" [class.opacityclass]="check">
+    <div class="picturecard" *ngFor="let picture of pics">
       <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
-        <span class="badge">{{picture.id}}</span>
+        <span class="badge">{{picture.id}} </span>
 
 
         <img class="imgss" src={{picture.imgs}}>
 
       </button>
-    </li>
-  </ul>
-
-  <div class="openedimage" *ngIf="selectedPicture">
-    <div class="openedimageclose" close (click)="onClose()"></div>
-    <div class="block_for_opened_image">
-    <img class="imgsstil" src={{selectedPicture.imgs}}>
-    
-    <div>
-   
-     
-      <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name">
-        <div class="button_for_open_full">
-          </div>
-      </a>
     </div>
   </div>
-</div>
+  <div class="openedimage" *ngIf="selectedPicture">
+
+    <div class="openedimageclose" close (click)="onClose()"></div>
+    <div class="block_for_opened_image">
+      <img class="imgsstil" src={{selectedPicture.imgs}}   style={{selectedPicture.classtyle}}  >
+      
+      <div>
+
+        <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name" >
+        <!--   {{selectedPicture.name}} -->
+        <div class="button_for_open_full">
+        </div> 
+        </a>
+      
+      </div>
+    </div>
+  </div>
 </div>

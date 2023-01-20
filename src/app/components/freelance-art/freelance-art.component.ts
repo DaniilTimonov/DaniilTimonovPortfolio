@@ -11,7 +11,7 @@ import { Input } from '@angular/core';
   styleUrls: ['./freelance-art.component.css']
 })
 export class FreelanceArtComponent implements OnInit {
-  heroes = PICTURES;
+  pics = PICTURES;
   check:boolean = false;
   fadeblack:boolean = false;
 

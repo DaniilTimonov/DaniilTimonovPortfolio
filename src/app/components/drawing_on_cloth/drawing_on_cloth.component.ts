@@ -11,7 +11,7 @@ import { NgModel } from '@angular/forms';
   styleUrls: ['./drawing_on_cloth.component.css']
 })
 export class DrawingOnCloth implements OnInit {
-  heroes = PICTURES;
+  pics = PICTURES;
   check:boolean = false;
   fadeblack:boolean = false;
 

@@ -1,4 +1,4 @@
-
+<!-- 
 
  
 <div class="digital_graphic_page" [class.backgroundfade]="fadeblack">
@@ -32,4 +32,38 @@
       </div>
     </article>
     
+    </div>
+ -->
+    <div class="digital_graphic_page" [class.backgroundfade]="fadeblack">
+      <div class="digitalartslider">
+        <app-digitalgraphicslider></app-digitalgraphicslider>
+      </div>
+      <div class="pics" [class.opacityclass]="check">
+        <div class="picturecard" *ngFor="let picture of pics">
+          <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
+            <span class="badge">{{picture.id}} </span>
+    
+    
+            <img class="imgss" src={{picture.imgs}}  >
+    
+          </button>
+        </div>
+      </div>
+      <div class="openedimage" *ngIf="selectedPicture">
+    
+        <div class="openedimageclose" close (click)="onClose()"></div>
+        <div class="block_for_opened_image">
+          <img class="imgsstil" src={{selectedPicture.imgs}} style={{selectedPicture.classtyle}}>
+          
+          <div>
+    
+            <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name" >
+            <!--   {{selectedPicture.name}} -->
+            <div class="button_for_open_full">
+            </div> 
+            </a>
+          
+          </div>
+        </div>
+      </div>
     </div>

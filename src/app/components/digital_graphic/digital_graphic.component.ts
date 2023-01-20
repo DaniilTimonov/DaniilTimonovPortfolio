@@ -10,7 +10,7 @@ import { Input } from '@angular/core';
   styleUrls: ['./digital_graphic.component.css']
 })
 export class DigitalGraphic implements OnInit {
-  heroes = PICTURES;
+  pics = PICTURES;
   check:boolean = false;
   fadeblack:boolean = false;
 
