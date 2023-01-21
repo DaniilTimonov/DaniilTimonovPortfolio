@@ -219,6 +219,21 @@
 
 }
 
+
+@media screen and (max-width: 1920px) {
+  .openedimage {
+
+
+
+    top: 330px;
+    z-index: 50;
+     
+  }
+
+}
+
+
+
 /* ------------------------------------------ mobile styles -------------------------------------------- */
 
 @media screen and (max-width: 480px) {
