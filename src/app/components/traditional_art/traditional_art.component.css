@@ -207,7 +207,7 @@
   width: 500px;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1280px) {
   .openedimage {
     bottom: 900px;
     top: 50px;
