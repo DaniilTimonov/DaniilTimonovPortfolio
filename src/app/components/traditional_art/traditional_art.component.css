@@ -209,14 +209,22 @@
 
 @media screen and (max-width: 1920px) {
   .openedimage {
-    bottom: 1250px;
+    bottom: 900px;
+    top: 50px;
+    z-index: 50;
+    
   }
 
 }
 
-/* ------------------------------------------                mobile styles         -------------------------------------------- */
+/* ------------------------------------------ mobile styles -------------------------------------------- */
 
 @media screen and (max-width: 480px) {
+
+  .button_for_open_full {
+
+    display: none;
+  }
 
   .traditionalartslider {
     display: none;
@@ -276,7 +284,7 @@
     background-image: url('src/assets/images/ui/mobile_ui_opened_image_card.png');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -200px;
+    margin-top: -300px;
     margin-left: 60px;
   }
 .block_for_opened_image {
