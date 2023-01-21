@@ -212,9 +212,10 @@
 
 
   bottom: 900px;
-    top: 50px;
+    margin-top: -280px;
     z-index: 50;
-     
+     width: 800px;
+     height: 600px;
   }
 
 }
