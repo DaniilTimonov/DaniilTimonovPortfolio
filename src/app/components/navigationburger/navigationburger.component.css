@@ -1,87 +1,75 @@
 .navigationburger {
-  width:300px ;
-  height: 23px;
+    width:300px ;
+    height: 23px;
 
-  background-size: cover;
+    background-size: cover;
 display: flex;
 flex-direction: column;
 position: absolute;
 padding-left: 220px;
 padding-top: 20px;
-
+z-index: 2;
 }
 
 
 
 li {
-list-style-type: none;
-width: 180px;
+  list-style-type: none;
+  width: 180px;
 }
 .navigation {
 
 }
 p, a {
-font-size: 14pt;
-margin: 0 24px;
-padding: 2px;
-text-decoration:none;
-color: #46423f;
+  font-size: 14pt;
+  margin: 0 24px;
+  padding: 2px;
+  text-decoration:none;
+  color: #46423f;
 }
 
 
 
 .container
 {
-perspective: 320px;
+  perspective: 320px;
 }
 
 .btn
 {
-display: block;
-margin: 4px 0;
-width: 258px;
-height: 100%;
-border: none;
-background-color: #ffcc01;
-color: #fff;
-font-size: 18px;
-border-radius: 6px;
-outline: none;
-cursor: pointer;
-transition: .3s linear;
+  display: block;
+  margin: 4px 0;
+  width: 258px;
+  height: 100%;
+  border: none;
+  background-color: #ffcc01;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
 }
 .btn2:hover {
-transform: rotateX(-15deg);
-box-shadow: 0 -15px 15px #ffcc01;
+  transform: rotateX(-15deg);
+  box-shadow: 0 -15px 15px #ffcc01;
 }
 
 
 @media screen and (max-width: 1024px) {
-.navigationburger{
-  height: 200px;
-}
+  .navigationburger{
+    height: 200px;
+  }
 
 
-}
+  }
 
-<<<<<<< HEAD
-@media screen and (max-width: 480px) {
-
-  .navigation {
-  display: none;
-  margin-left: -500px;
-  height: 100px;
-}
- }
-=======
   @media screen and (max-width: 480px) {
   
     .navigation {
     display: none;
     margin-left: -500px;
-    height: 100px;
   }
    }
   
->>>>>>> b822a28d2dc7ab805cf5042c8639994ef4e8fe5d
 

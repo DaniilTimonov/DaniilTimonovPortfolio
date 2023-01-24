@@ -240,15 +240,11 @@
 
 }
 
+
+
 /* ------------------------------------------ mobile styles -------------------------------------------- */
 
 @media screen and (max-width: 480px) {
-  .button_for_open_full_mobile {
-    width: 130px;
-    height: 47px;
-margin-top:20px;
-    background-image: url('src/assets/images/ui/open_full_button_mobile.png');
-  }
 
   .button_for_open_full {
 
@@ -307,26 +303,26 @@ margin-top:20px;
     flex-direction: column;
 
 
-    width: 480px;
+    width: 341px;
     height: 400px;
    
     background-image: url('src/assets/images/ui/mobile_ui_opened_image_card.png');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -100px;
-    margin-left: 5px;
+    margin-top: -300px;
+    margin-left: 60px;
   }
 .block_for_opened_image {
   
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   margin-top:52px;
   
 
 }
 .openedimageclose {
-  margin-top: -30px;
-  margin-left:410px;
+  margin-top: -50px;
+  margin-left:340px;
 }
   .imgsstil {
     width: 100%;
