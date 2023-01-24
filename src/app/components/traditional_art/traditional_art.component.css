@@ -208,11 +208,18 @@
 }
 
 @media screen and (max-width: 1280px) {
+  .openedimageclose  {
+    margin-left: 800px;
+  }
+  .block_for_opened_image {
+    width: 700px;
+    height: 350px;
+  }
   .openedimage {
 
 
   bottom: 900px;
-    margin-top: -280px;
+    margin-top: -20px;
     z-index: 50;
      width: 800px;
      height: 600px;
@@ -233,11 +240,15 @@
 
 }
 
-
-
 /* ------------------------------------------ mobile styles -------------------------------------------- */
 
 @media screen and (max-width: 480px) {
+  .button_for_open_full_mobile {
+    width: 130px;
+    height: 47px;
+margin-top:20px;
+    background-image: url('src/assets/images/ui/open_full_button_mobile.png');
+  }
 
   .button_for_open_full {
 
@@ -292,30 +303,30 @@
   .openedimage {
 
     display: flex;
-    position: relative;
+    position: fixed;
     flex-direction: column;
 
 
-    width: 341px;
+    width: 480px;
     height: 400px;
    
     background-image: url('src/assets/images/ui/mobile_ui_opened_image_card.png');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -300px;
-    margin-left: 60px;
+    margin-top: -100px;
+    margin-left: 5px;
   }
 .block_for_opened_image {
   
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   margin-top:52px;
   
 
 }
 .openedimageclose {
-  margin-top: -50px;
-  margin-left:340px;
+  margin-top: -30px;
+  margin-left:410px;
 }
   .imgsstil {
     width: 100%;
