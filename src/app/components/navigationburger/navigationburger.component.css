@@ -64,6 +64,7 @@ box-shadow: 0 -15px 15px #ffcc01;
 
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 480px) {
 
   .navigation {
@@ -72,4 +73,15 @@ box-shadow: 0 -15px 15px #ffcc01;
   height: 100px;
 }
  }
+=======
+  @media screen and (max-width: 480px) {
+  
+    .navigation {
+    display: none;
+    margin-left: -500px;
+    height: 100px;
+  }
+   }
+  
+>>>>>>> b822a28d2dc7ab805cf5042c8639994ef4e8fe5d
 
