@@ -1,39 +1,4 @@
-<!-- 
 
- 
-<div class="digital_graphic_page" [class.backgroundfade]="fadeblack">
-  <div class="digitalartslider">
-    <app-digitalgraphicslider></app-digitalgraphicslider>
-  </div>
-
-    <h2 class="terranunitsheading"></h2>
-    <ul class="heroes "  [class.opacityclass]="check"  >
-      <li *ngFor="let picture of heroes">
-        <button  [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">
-          <span class="badge">{{picture.id}}</span>
-    
-           
-          <img  class="imgss" src={{picture.imgs}}>
-    
-        </button>
-      </li>
-    </ul>
-        
-    
-    <article class="openedimage" *ngIf="selectedPicture">
-      <div class="openedimageclose" close (click)="onClose()"></div>
-      <img class="imgsstil" src={{selectedPicture.imgs}}>
-      <div>id: {{selectedPicture.id}}</div>
-      <div>
-        <label for="picture-name">Hero name: </label>
-        <input id="picture-name" [(ngModel)]="selectedPicture.imgs" placeholder="name">
-        <a href="{{selectedPicture.imgs}}" target="_blank" [(ngModel)]="selectedPicture.imgs" placeholder="name"> {{selectedPicture.name}}
-    </a>
-      </div>
-    </article>
-    
-    </div>
- -->
     <div class="digital_graphic_page" [class.backgroundfade]="fadeblack">
       <div class="digitalartslider">
         <app-digitalgraphicslider></app-digitalgraphicslider>
@@ -61,6 +26,8 @@
             <!--   {{selectedPicture.name}} -->
             <div class="button_for_open_full">
             </div> 
+            <div class="button_for_open_full_mobile">
+            </div>
             </a>
           
           </div>
