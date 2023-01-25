@@ -8,7 +8,7 @@ flex-direction: column;
 position: absolute;
 padding-left: 220px;
 padding-top: 20px;
-z-index: 2;
+
 }
 
 
@@ -69,6 +69,7 @@ p, a {
     .navigation {
     display: none;
     margin-left: -500px;
+    height: 100px;
   }
    }
   
