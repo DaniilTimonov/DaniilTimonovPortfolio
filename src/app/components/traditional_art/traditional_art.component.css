@@ -244,13 +244,20 @@
 
 /* ------------------------------------------ mobile styles -------------------------------------------- */
 
+@media screen and (max-width: 412px) {
+.burgerbutton {
+  margin-left: 25px;
+  margin-top: 35px;
+}
+
+}
 @media screen and (max-width: 425px) {
 
 
   .button_for_open_full_mobile {
     width: 130px;
     height: 47px;
-    margin-top: 20px;
+    margin-top: 2px;
     background-image: url('src/assets/images/ui/open_full_button_mobile.png');
   }
 
@@ -264,8 +271,10 @@
   }
 
   .traditional_art_page {
-    width: 425px;
-    height: 650px;
+    
+    width: 410px;
+    height: 500px;
+    margin-left: 0px;
 
   }
 
@@ -277,9 +286,9 @@
   }
 
   .pics {
-    width: 430px;
-    margin-left: -4px;
-    margin-top: 20px;
+    width: 360px;
+    margin-left: -13px;
+    margin-top: 7px;
 
   }
 
@@ -311,28 +320,28 @@
     flex-direction: column;
 
 
-    width: 480px;
+    width: 402px;
     height: 400px;
 
     background-image: url('src/assets/images/ui/mobile_ui_opened_image_card.png');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -100px;
+    margin-top: -153px;
     margin-left: 5px;
   }
 
   .block_for_opened_image {
 
-    width: 400px;
-    height: 300px;
-    margin-top: 52px;
+    width: 404px;
+    height: 286px;
+    margin-top: 42px;
 
 
   }
 
   .openedimageclose {
-    margin-top: -30px;
-    margin-left: 410px;
+    margin-top: -51px;
+    margin-left: 351px;
   }
 
   .imgsstil {

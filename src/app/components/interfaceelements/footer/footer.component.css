@@ -21,9 +21,10 @@ border-bottom-left-radius: 48px;
 
 @media screen and (max-width: 480px) {
       .footerccenter {
-        width: 480px;
+        width: 408px;
         background-image: none;
         background-color: teal;
         margin:0px auto;
+        margin-left: 2px;
       }
    }

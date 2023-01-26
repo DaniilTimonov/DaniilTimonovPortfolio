@@ -37,12 +37,23 @@
   color: black;
 
  }
+ 
+ @media screen and (max-width: 425px) {
+  .main_centerpage {
+    width: 407px;
+    height: 500px;
+    margin:0px auto;
+  }
+
+
+ }
 
  @media screen and (max-width: 480px) {
   .main_centerpage {
-    width: 480px;
+    width: 407px;
     height: 500px;
     margin:0px auto;
+    margin-left: 0px;
   }
 
   p {
