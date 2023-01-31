@@ -93,6 +93,8 @@ button {
 
 .hoomelandbutton {
     display: block;
+    margin-left:160px;
+    margin-top:11px;
 }
 *{
     margin: 0px auto;
@@ -146,8 +148,8 @@ button {
                 
                 .burgerbutton {
                  
-                    margin-top: 32px;
-                 margin-left: 25px;   
+                    margin-top: 25px;
+                 margin-left: 20px;   
                 }
             
                 }

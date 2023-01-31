@@ -36,6 +36,17 @@ button {
 
 }
 
+
+@media screen and (max-width: 425px) {
+.hoomelandbutton {
+    margin-left: 163px;
+    margin-top: 8px;
+}
+
+
+}
+
+
 @media screen and (max-width: 425px) {
 .container_for_havigation {
     display: none;
@@ -44,9 +55,14 @@ button {
     .headerccenter {
         width: 425px;
         margin:0px auto;
-        height: 89px;
+        height: 77px;
         background-image: url('src/assets/images/ui/uibannermobile.png');
         background-size: contain;
     
+    }
+
+    .hoomelandbutton {
+        margin-left: 163px;
+        margin-top: 8px;
     }
     }
