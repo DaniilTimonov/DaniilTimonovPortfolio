@@ -251,7 +251,7 @@
 }
 
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
 
 
   .button_for_open_full_mobile {
@@ -299,7 +299,7 @@
   }
 
   .pics button {
-    width: 159px;
+    width: 149px;
     height: 167px;
     border: 2px solid black;
     display: block;
@@ -320,13 +320,13 @@
     flex-direction: column;
 
 
-    width: 362px;
+    width: 336px;
     height: 400px;
 
     background-image: url('src/assets/images/ui/mobile_ui_opened_image_card.png');
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -153px;
+   margin-top: -162px;
     margin-left: 5px;
   }
 
