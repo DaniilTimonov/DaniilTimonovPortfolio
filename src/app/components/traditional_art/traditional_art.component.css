@@ -272,7 +272,7 @@
 
   .traditional_art_page {
     
-    width: 410px;
+    width: 365px;
     height: 500px;
     margin-left: 0px;
 
@@ -287,9 +287,9 @@
 
   .pics {
     width: 360px;
-    margin-left: -17px;
+    margin-left: -12px;
     margin-top: 4px;
-
+  
   }
 
   .pics .picturecard {
@@ -299,8 +299,8 @@
   }
 
   .pics button {
-    width: 175px;
-    height: 200px;
+    width: 159px;
+    height: 167px;
     border: 2px solid black;
     display: block;
 
@@ -309,7 +309,7 @@
   .imgss {
     width: 100%;
     height: 100%;
-    margin-top: -100px;
+    margin-top: -83px;
 
   }
 
@@ -332,16 +332,17 @@
 
   .block_for_opened_image {
 
-    width: 404px;
-    height: 286px;
-    margin-top: 42px;
+    width: 349px;
+    height: 260px;
+    margin-top: 31px;
 
 
   }
 
   .openedimageclose {
     margin-top: -51px;
-    margin-left: 351px;
+    margin-left: 305px;
+
   }
 
   .imgsstil {
