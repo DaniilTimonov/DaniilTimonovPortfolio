@@ -25,14 +25,14 @@ export class FavouritepicturessliderComponent implements OnInit {
 		},
 		{
 			previewImageSrc:
-				'assets/images/freelance/freelance03.jpg',
+			'assets/images/handdraw/classicart7.jpg',
 	
 			alt: '',
 			title: ''
 		},
 		{
 			previewImageSrc:
-      'assets/images/freelance/freelance08.jpg',
+			'assets/images/digitaldraw/digitaldraw01.jpg',
 		
 			alt: '',
 			title: ''

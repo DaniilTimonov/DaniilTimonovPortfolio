@@ -251,7 +251,7 @@
 }
 
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 425px) {
 
 
   .button_for_open_full_mobile {
@@ -272,7 +272,7 @@
 
   .traditional_art_page {
     
-    width: 365px;
+    width: 285px;
     height: 500px;
     margin-left: 0px;
 

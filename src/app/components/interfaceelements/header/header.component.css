@@ -37,17 +37,14 @@ button {
 }
 
 
-@media screen and (max-width: 425px) {
-.hoomelandbutton {
-    margin-left: 163px;
-    margin-top: 8px;
-}
-
-
-}
 
 
 @media screen and (max-width: 425px) {
+    .hoomelandbutton {
+        margin-left: 163px;
+        margin-top: 8px;
+    }
+    
 .container_for_havigation {
     display: none;
 }
