@@ -254,7 +254,7 @@
       /* mobile styles ------------------------------- */
       @media screen and (max-width: 425px) {
         .digital_graphic_page {
-          width: 365px;
+          width: 343px;
           height: 500px;
           margin-left: 0px;
         }
@@ -300,14 +300,15 @@
           position: fixed;
           flex-direction: column;
 
-
-          width: 362px;
+          width: 336px;
           height: 400px;
 
           background-image: url('src/assets/images/ui/mobile_ui_opened_image_card.png');
           background-size: contain;
           background-repeat: no-repeat;
-         margin-bottom: -790px;
+        
+
+          margin-top: -162px;
           margin-left: 5px;
         }
 

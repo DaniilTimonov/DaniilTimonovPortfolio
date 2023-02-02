@@ -332,8 +332,8 @@
 
   .block_for_opened_image {
 
-    width: 349px;
-    height: 260px;
+    width: 322px;
+    height: 240px;
     margin-top: 31px;
 
 
@@ -341,7 +341,8 @@
 
   .openedimageclose {
     margin-top: -51px;
-    margin-left: 305px;
+    margin-left: 284px;
+    
 
   }
 
