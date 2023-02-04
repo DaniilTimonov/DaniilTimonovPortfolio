@@ -229,10 +229,25 @@
 /* media styles */
 
 @media screen and (max-width: 1920px) {
+   .openedimageclose {
+    margin-left: 800px;
+    margin-left: 1034px;
+  }
+
+  .block_for_opened_image {
+    width: 925px;
+    height: 460px;
+    margin-top: 77px;
+  margin-left: 59px;
+  }
+
   .openedimage {
-    top: 87px;
-    left: 70px;
+    bottom: 1229px;
+    left:20px;
+    margin-top: -20px;
     z-index: 50;
+    width: 1200px;
+    height: 600px;
   }
 }
 
