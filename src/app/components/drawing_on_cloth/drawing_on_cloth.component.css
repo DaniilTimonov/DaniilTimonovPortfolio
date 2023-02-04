@@ -245,10 +245,22 @@
 
 @media screen and (max-width: 1920px) {
   .openedimage {
-    bottom: 1250px;
+    bottom: 1117px;
+    width: 800px;
+    height: 600px;
+    z-index: 232323232;
+    left: 70px;
   }
-
+  .block_for_opened_image {
+    width: 700px;
+    height: 350px;
+  }
+  .openedimageclose {
+    margin-left: 799px;
+  }
 }
+
+
 
 /* mobile styles ------------------------------- */
 

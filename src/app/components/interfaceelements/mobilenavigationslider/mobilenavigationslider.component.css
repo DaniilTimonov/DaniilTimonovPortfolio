@@ -1,168 +1,140 @@
 ng-sidebar-container {
   width: 300px;
-height: 655px;
-margin-left: 290px;
-position: absolute;
-
+  height: 655px;
+  margin-left: 290px;
+  position: absolute;
 }
 .totopslider {
-    z-index:70;
-    position: absolute;
+  z-index: 70;
+  position: absolute;
 }
 .btn {
-    align-items: center;
+  align-items: center;
 }
 a {
-    color: yellow;
-    text-decoration:none;
+  color: yellow;
+  text-decoration: none;
 }
 li {
-    list-style-type :none;
-    padding-left: 0;
-  
+  list-style-type: none;
+  padding-left: 0;
 }
 .imganimationsection {
-    width: 252px;
-    height: 62px;
-
+  width: 252px;
+  height: 62px;
 }
 
 .sectionmobile {
-    background-image: url('src/assets/images/ui/mobilemenuslidersection.png')  ;
-    width: 252px;
-    height: 62px;
-    margin-left: -70px;
-
+  background-image: url("src/assets/images/ui/mobilemenuslidersection.png");
+  width: 252px;
+  height: 62px;
+  margin-left: -70px;
 }
 .closebutton {
-    background-image: url('src/assets/images/ui/exit_opened_img.png');
-    background-size: contain;
-    width: 41px;
-    height: 41px;
-    margin-left: 200px;
+  background-image: url("src/assets/images/ui/exit_opened_img.png");
+  background-size: contain;
+  width: 41px;
+  height: 41px;
+  margin-left: 200px;
 }
 .mobilenavigationcontainer {
-    display: none;
-    margin-left: -10px;
-    z-index: 4;
-    margin-top: 0px;
+  display: none;
+  margin-left: -10px;
+  z-index: 4;
+  margin-top: 0px;
 }
 
 ::ng-deep .ng-sidebar {
-    background-image: url('src/assets/images/ui/left_side_mobile_menu.png');
-    
-    width: 300px;
-    padding: 2em 3em;
-    box-shadow: 0 0 2.5em rgba(85, 85, 85, 0.5);
+  background-image: url("src/assets/images/ui/left_side_mobile_menu.png");
+
+  width: 300px;
+  padding: 2em 3em;
+  box-shadow: 0 0 2.5em rgba(85, 85, 85, 0.5);
 }
-
-
-
 
 .burgerbutton {
-    width: 37px;
-    height: 39px;
-    background-image: url('src/assets/images/ui/burgerscifi.png');
-    margin-top: 20px;
-    
+  width: 37px;
+  height: 39px;
+  background-image: url("src/assets/images/ui/burgerscifi.png");
+  margin-top: 20px;
 }
 button {
-    background: none;
+  background: none;
 }
 
-
 .hoomelandbutton {
-   
-    background-image: url('src/assets/images/ui/home_button.png');
-    width: 56px;
-    height: 60px;
-    position: absolute;
- z-index: 23;
-    margin-left: 200px;
-    margin-top: 20px;
-    display: none;
-    
+  background-image: url("src/assets/images/ui/home_button.png");
+  width: 56px;
+  height: 60px;
+  position: absolute;
+  z-index: 23;
+  margin-left: 200px;
+  margin-top: 20px;
+  display: none;
 }
 .offhomebuttoncss {
-    display: none;
-    background: red;
+  display: none;
+  background: red;
 }
-
 
 @media screen and (max-width: 480px) {
-
-.hoomelandbutton {
+  .hoomelandbutton {
     display: block;
-    margin-left:160px;
-    margin-top:11px;
-}
-*{
+    margin-left: 218px;
+    margin-top: 27px;
+  }
+  * {
     margin: 0px auto;
+  }
+  .mobilenavigationcontainer {
+    display: block;
+  }
+
+  .burgerbutton {
+    margin-top: 35px;
+    margin-left: 19px;
+  }
 }
-    .mobilenavigationcontainer {
-        display: block;
-    }
-    
-    .burgerbutton {
-     
-        margin-top: 35px;
-     margin-left: 19px;   
-    }
 
-    }
+@media screen and (max-width: 393px) {
+  .mobilenavigationcontainer {
+    display: block;
+  }
 
-    @media screen and (max-width: 393px) {
+  .burgerbutton {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}
 
-        .mobilenavigationcontainer {
-            display: block;
-        }
-        
-        .burgerbutton {
-         
-            margin-top: 30px;
-         margin-left: 0px;   
-        }
-    
-        }
+@media screen and (max-width: 452px) {
+  .mobilenavigationcontainer {
+    display: block;
+  }
 
-        @media screen and (max-width: 452px) {
+  .burgerbutton {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+}
 
-            .mobilenavigationcontainer {
-                display: block;
-            }
-            
-            .burgerbutton {
-             
-                margin-top: 30px;
-             margin-left: 20px;   
-            }
-        
-            }
+@media screen and (max-width: 432px) {
+  .mobilenavigationcontainer {
+    display: block;
+  }
 
-        
-            @media screen and (max-width: 432px) {
+  .burgerbutton {
+    margin-top: 39px;
+    margin-left: 24px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .mobilenavigationcontainer {
+    display: block;
+  }
 
-                .mobilenavigationcontainer {
-                    display: block;
-                }
-                
-                .burgerbutton {
-                 
-                    margin-top: 25px;
-                 margin-left: 20px;   
-                }
-            
-                }
-                @media screen and (max-width: 412px) {
-
-                    .mobilenavigationcontainer {
-                        display: block;
-                    }
-                    
-                    .burgerbutton {
-                     
-                        margin-top: 30px;
-                     margin-left: 0px;   
-                    }
-                
-                    }
+  .burgerbutton {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}

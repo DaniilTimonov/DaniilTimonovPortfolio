@@ -40,7 +40,7 @@
  
  @media screen and (max-width: 425px) {
   .main_centerpage {
-    width: 407px;
+    width: 469px;
     height: 500px;
     margin:0px auto;
   }
@@ -50,7 +50,7 @@
 
  @media screen and (max-width: 480px) {
   .main_centerpage {
-    width: 364px;
+    width: 469px;
     height: 500px;
     margin:0px auto;
     margin-left: 0px;

@@ -1,7 +1,7 @@
 :root {
-  --scrollbarBgColor: rgba(0, 0, 0, .05);
-  --scrollbarThumbColor: rgba(0, 0, 0, .15);
-  --scrollbarThumbColorSecond: rgba(255, 255, 255, .7);
+  --scrollbarBgColor: rgba(0, 0, 0, 0.05);
+  --scrollbarThumbColor: rgba(0, 0, 0, 0.15);
+  --scrollbarThumbColorSecond: rgba(255, 255, 255, 0.7);
   --scrollbarWidth: 16px;
   --scrollbarBorder: 0 solid var(--scrollbarBgColor);
   --scrollbarBorderRadius: calc(var(--scrollbarWidth) / 4);
@@ -25,23 +25,22 @@
   background-color: var(--scrollbarThumbColor);
   border-radius: var(--scrollbarBorderRadius);
   border: var(--scrollbarBorder);
-  background-image: linear-gradient(180deg,
-      var(--scrollbarThumbColor) 0%,
-      var(--scrollbarThumbColorSecond) 90%);
+  background-image: linear-gradient(
+    180deg,
+    var(--scrollbarThumbColor) 0%,
+    var(--scrollbarThumbColorSecond) 90%
+  );
 }
-
 
 .traditional_art_page {
   width: 1200px;
   height: 900px;
 
   border: 2px solid #474747;
-  ;
   /*   background-color: #ffcc01; */
-  background-image: url('src/assets/images/ui/ui_background_main.png');
+  background-image: url("src/assets/images/ui/ui_background_main.png");
   background-size: contain;
   overflow: auto;
-
 }
 
 .pics {
@@ -54,29 +53,26 @@
   justify-content: space-evenly;
   margin-left: 32px;
   margin-top: 20px;
-
 }
 
 .pics {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(32ch, 1fr));
-
 }
 
 .opacityclass {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .pics .picturecard {
   display: block;
   width: 100%;
   float: left;
-  transition: width .2s;
+  transition: width 0.2s;
   z-index: 60;
 }
 
 .pics button {
-
   display: flex;
   border-radius: 3px;
   position: relative;
@@ -91,16 +87,20 @@
 }
 
 .pics button:hover {
-  left: .1em;
+  left: 0.1em;
 }
 
-.pics button:active {}
+.pics button:active {
+}
 
-.pics button.selected {}
+.pics button.selected {
+}
 
-.pics button.selected:hover {}
+.pics button.selected:hover {
+}
 
-.pics button.selected:active {}
+.pics button.selected:active {
+}
 
 .pics .badge {
   display: inline-block;
@@ -109,7 +109,7 @@
   padding: 0.8em 0.7em 0 0.7em;
   background-color: #405061;
   line-height: 1em;
-  margin-right: .8em;
+  margin-right: 0.8em;
   border-radius: 4px 0 0 4px;
   display: none;
 }
@@ -125,7 +125,6 @@
 }
 
 .openedimage {
-
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -134,12 +133,11 @@
   width: 907px;
   height: 524px;
   bottom: 600px;
-  background-image: url('src/assets/images/ui/open_image_ui.png');
+  background-image: url("src/assets/images/ui/open_image_ui.png");
 
   background-size: contain;
 
   background-repeat: no-repeat;
-
 }
 
 .block_for_opened_image {
@@ -152,19 +150,18 @@
 .button_for_open_full {
   width: 202px;
   height: 52px;
-  background-image: url('src/assets/images/ui/open_full_button.png');
+  background-image: url("src/assets/images/ui/open_full_button.png");
   background-size: contain;
   margin-top: 10px;
-
 }
 
 .backgroundfade {
-  background-image: url('src/assets/images/ui/blackfade.png');
+  background-image: url("src/assets/images/ui/blackfade.png");
   background-size: contain;
 }
 
 .button_for_open_full:hover {
-  background-image: url('src/assets/images/ui/open_full_button_hover.png');
+  background-image: url("src/assets/images/ui/open_full_button_hover.png");
   background-size: contain;
   width: 342px;
   height: 200px;
@@ -180,11 +177,15 @@
 
   object-fit: cover;
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .openedimageclose {
-  background-image: url('src/assets/images/ui/exit_opened_img.png');
+  background-image: url("src/assets/images/ui/exit_opened_img.png");
   width: 50px;
   height: 50px;
   background-size: cover;
@@ -196,7 +197,6 @@
   margin-top: -50px;
   z-index: 120;
   position: absolute;
-
 }
 
 .openedimageclose:hover {
@@ -218,51 +218,79 @@
   }
 
   .openedimage {
-
-
     bottom: 900px;
     margin-top: -20px;
     z-index: 50;
     width: 800px;
     height: 600px;
   }
-
 }
 
+/* media styles */
 
 @media screen and (max-width: 1920px) {
   .openedimage {
-
-
-
-    top: 330px;
+    top: 87px;
+    left: 70px;
     z-index: 50;
-
   }
-
 }
 
 /* ------------------------------------------ mobile styles -------------------------------------------- */
 
-@media screen and (max-width: 412px) {
-.burgerbutton {
-  margin-left: 25px;
-  margin-top: 35px;
+@media screen and (max-width: 480px) {
+ 
+  .traditional_art_page {
+    width: 470px;
+    height: 500px;
+    margin-left: 0px;
+  }
+  .pics {
+    display: grid;
+    /* adjust the `min` value to your context */
+    grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
+  }
+  .pics {
+    width: 360px;
+    margin-left: -12px;
+    margin-top: 4px;
+  }
+  .pics .picturecard {
+    width: 200px;
+    height: 200px;
+  }
+
+  .pics button {
+    width: 149px;
+    height: 167px;
+    border: 2px solid black;
+    display: block;
+  }
+  .imgss {
+    width: 100%;
+    height: 100%;
+    margin-top: -83px;
+  }
+
 }
 
+
+
+@media screen and (max-width: 412px) {
+  .burgerbutton {
+    margin-left: 25px;
+    margin-top: 35px;
+  }
 }
 @media screen and (max-width: 425px) {
-
-
   .button_for_open_full_mobile {
     width: 130px;
     height: 47px;
     margin-top: 2px;
-    background-image: url('src/assets/images/ui/open_full_button_mobile.png');
+    background-image: url("src/assets/images/ui/open_full_button_mobile.png");
   }
 
   .button_for_open_full {
-
     display: none;
   }
 
@@ -271,31 +299,26 @@
   }
 
   .traditional_art_page {
-    
     width: 343px;
     height: 500px;
     margin-left: 0px;
-
   }
 
   .pics {
     display: grid;
     /* adjust the `min` value to your context */
     grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
-
   }
 
   .pics {
     width: 360px;
     margin-left: -12px;
     margin-top: 4px;
-  
   }
 
   .pics .picturecard {
     width: 200px;
     height: 200px;
-
   }
 
   .pics button {
@@ -303,54 +326,44 @@
     height: 167px;
     border: 2px solid black;
     display: block;
-
   }
 
   .imgss {
     width: 100%;
     height: 100%;
     margin-top: -83px;
-
   }
 
   .openedimage {
-
     display: flex;
     position: fixed;
     flex-direction: column;
 
-
     width: 336px;
     height: 400px;
 
-    background-image: url('src/assets/images/ui/mobile_ui_opened_image_card.png');
+    background-image: url("src/assets/images/ui/mobile_ui_opened_image_card.png");
     background-size: contain;
     background-repeat: no-repeat;
-   margin-top: -162px;
+    margin-top: -162px;
     margin-left: 5px;
   }
 
   .block_for_opened_image {
-
     width: 322px;
     height: 240px;
     margin-top: 31px;
-
-
   }
 
   .openedimageclose {
     margin-top: -51px;
     margin-left: 284px;
-    
-
   }
 
   .imgsstil {
     width: 100%;
     height: 100%;
     object-fit: contain;
-
   }
 
   .button_for_open_full {
@@ -362,6 +375,4 @@
   .button_for_open_full:hover {
     /*   background-image: url('src/assets/images/ui/open_full_button.png'); */
   }
-
-
 }
