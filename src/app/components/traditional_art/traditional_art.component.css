@@ -34,13 +34,13 @@
 
 .traditional_art_page {
   width: 1200px;
-  height: 900px;
+
 
   border: 2px solid #474747;
   /*   background-color: #ffcc01; */
   background-image: url("src/assets/images/ui/ui_background_main.png");
   background-size: contain;
-  overflow: auto;
+ 
 }
 
 .pics {
