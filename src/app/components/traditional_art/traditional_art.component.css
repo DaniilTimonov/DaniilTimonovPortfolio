@@ -224,30 +224,13 @@
   }
 }
 
-@media screen and (max-height: 720px) {
-  .openedimageclose {
-    margin-left: 800px;
-  }
-
-  .block_for_opened_image {
-    width: 700px;
-    height: 350px;
-  }
-
+@media screen and (max-width: 1920px) {
   .openedimage {
-    bottom: 900px;
-    margin-top: -20px;
-    z-index: 50;
+top:15%;
+   left: 25%;
     width: 800px;
     height: 600px;
   }
-}
-
-
-/* media styles */
-
-@media screen and (max-width: 1920px) {
-
 }
 /* ------------------------------------------ mobile styles -------------------------------------------- */
 
