@@ -128,11 +128,10 @@
   display: flex;
   position: fixed;
   flex-direction: column;
-  margin-bottom: -1200px;
-  margin-left: 130px;
-  width: 907px;
-  height: 524px;
-  bottom: 600px;
+
+
+  top:15%;
+  left:15%;
   background-image: url("src/assets/images/ui/open_image_ui.png");
 
   background-size: contain;
@@ -249,23 +248,7 @@
 /* media styles */
 
 @media screen and (max-width: 1920px) {
-  .openedimageclose {
-    margin-left: 800px;
-  }
 
-  .block_for_opened_image {
-    width: 700px;
-    height: 350px;
-  }
-
-  .openedimage {
-    bottom: 1175px;
-    margin-top: 42px;
-    margin-left:132px;
-    z-index: 50;
-    width: 800px;
-    height: 600px;
-  }
 }
 /* ------------------------------------------ mobile styles -------------------------------------------- */
 
