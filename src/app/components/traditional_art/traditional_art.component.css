@@ -217,9 +217,8 @@
   }
 
   .openedimage {
-    bottom: 900px;
-    margin-top: -20px;
-    z-index: 50;
+
+   
     width: 800px;
     height: 600px;
   }
