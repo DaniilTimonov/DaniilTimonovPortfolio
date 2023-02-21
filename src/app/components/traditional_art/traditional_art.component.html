@@ -13,9 +13,10 @@
       </button>
     </div>
   </div>
-  <div class="openedimage" *ngIf="selectedPicture">
-
-    <div class="openedimageclose" close (click)="onClose()"></div>
+  
+  <div class="openedimage-wrapper" *ngIf="selectedPicture">
+<div class="openedimage">
+    <button class="openedimageclose" close (click)="onClose()"></button>
     <div class="block_for_opened_image">
       <img class="imgsstil" src={{selectedPicture.imgs}}>
       
@@ -32,4 +33,5 @@
       </div>
     </div>
   </div>
+</div>
 </div>

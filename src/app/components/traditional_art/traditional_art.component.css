@@ -25,11 +25,9 @@
   background-color: var(--scrollbarThumbColor);
   border-radius: var(--scrollbarBorderRadius);
   border: var(--scrollbarBorder);
-  background-image: linear-gradient(
-    180deg,
-    var(--scrollbarThumbColor) 0%,
-    var(--scrollbarThumbColorSecond) 90%
-  );
+  background-image: linear-gradient(180deg,
+      var(--scrollbarThumbColor) 0%,
+      var(--scrollbarThumbColorSecond) 90%);
 }
 
 .traditional_art_page {
@@ -40,7 +38,7 @@
   /*   background-color: #ffcc01; */
   background-image: url("src/assets/images/ui/ui_background_main.png");
   background-size: contain;
- 
+
 }
 
 .pics {
@@ -90,17 +88,13 @@
   left: 0.1em;
 }
 
-.pics button:active {
-}
+.pics button:active {}
 
-.pics button.selected {
-}
+.pics button.selected {}
 
-.pics button.selected:hover {
-}
+.pics button.selected:hover {}
 
-.pics button.selected:active {
-}
+.pics button.selected:active {}
 
 .pics .badge {
   display: inline-block;
@@ -124,14 +118,25 @@
   position: absolute;
 }
 
+
+.openedimage-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  overflow-y: scroll;
+  justify-content: space-evenly;
+}
+
 .openedimage {
   display: flex;
-  position: fixed;
+ 
   flex-direction: column;
-
-
-  top:15%;
-  left:15%;
   background-image: url("src/assets/images/ui/open_image_ui.png");
 
   background-size: contain;
@@ -216,41 +221,38 @@
     height: 350px;
   }
 
+
   .openedimage {
 
-   
+
     width: 800px;
     height: 600px;
   }
 }
 
-@media screen and (max-width: 1920px) {
-  .openedimage {
-top:15%;
-   left: 25%;
-    width: 800px;
-    height: 600px;
-  }
-}
+
 /* ------------------------------------------ mobile styles -------------------------------------------- */
 
 @media screen and (max-width: 480px) {
- 
+
   .traditional_art_page {
     width: 470px;
     height: 500px;
     margin-left: 0px;
   }
+
   .pics {
     display: grid;
     /* adjust the `min` value to your context */
     grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
   }
+
   .pics {
     width: 360px;
     margin-left: -12px;
     margin-top: 4px;
   }
+
   .pics .picturecard {
     width: 200px;
     height: 200px;
@@ -262,6 +264,7 @@ top:15%;
     border: 2px solid black;
     display: block;
   }
+
   .imgss {
     width: 100%;
     height: 100%;
@@ -278,6 +281,7 @@ top:15%;
     margin-top: 35px;
   }
 }
+
 @media screen and (max-width: 425px) {
   .button_for_open_full_mobile {
     width: 130px;
