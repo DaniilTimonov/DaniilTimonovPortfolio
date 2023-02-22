@@ -176,12 +176,12 @@
 
 .openedimage {
   display: flex;
- 
+
   flex-direction: column;
   background-image: url("src/assets/images/ui/open_image_ui.png");
 
   background-size: contain;
- 
+
   background-repeat: no-repeat;
 }
 
@@ -258,10 +258,12 @@
     z-index: 232323232;
     left: 70px;
   }
+
   .block_for_opened_image {
     width: 700px;
     height: 350px;
   }
+
   .openedimageclose {
     margin-left: 799px;
   }

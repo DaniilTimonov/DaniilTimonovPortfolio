@@ -9,7 +9,10 @@
 
 
 }
-
+.traditionalslider {
+    position: absolute;
+    top:230px;
+}
 
 
 .container_for_havigation {
