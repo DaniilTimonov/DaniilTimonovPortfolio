@@ -160,22 +160,29 @@
   position: absolute;
 }
 
-.openedimage {
-
-  display: flex;
+.openedimage-wrapper {
+  width: 100%;
+  height: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
   flex-direction: column;
-  margin-bottom: -1200px;
-  margin-left: 130px;
-  width: 907px;
-  height: 524px;
-  bottom: 600px;
-  background-image: url('src/assets/images/ui/open_image_ui.png');
+  align-items: center;
+  z-index: 2;
+
+  justify-content: space-evenly;
+}
+
+.openedimage {
+  display: flex;
+ 
+  flex-direction: column;
+  background-image: url("src/assets/images/ui/open_image_ui.png");
 
   background-size: contain;
-
+ 
   background-repeat: no-repeat;
-
 }
 
 .block_for_opened_image {
