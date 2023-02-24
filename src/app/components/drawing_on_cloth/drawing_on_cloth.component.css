@@ -81,21 +81,9 @@
 }
 
 .pics button {
-  /*     flex: 1;
-        cursor: pointer;
-        position: relative;
-        left: 0;
-        background-color: #EEE;
-        margin: .5em;
-        padding: 0;
-        border-radius: 4px;
-        display: flex;
-        align-items: stretch;
-        height: 1.8em;
-        width: 200px;
-        height: 200px; */
+
   display: flex;
-  /* 	border: 3px solid black; */
+ 
   border-radius: 3px;
   position: relative;
 
@@ -109,32 +97,11 @@
 }
 
 .pics button:hover {
-  /*     color: #2c3a41;
-        background-color: #e6e6e6; */
+
   left: .1em;
 }
 
-.pics button:active {
-  /*     background-color: #525252;
-        color: #fafafa; */
-}
 
-.pics button.selected {
-  /*     background-color: black;
-        color: white; */
-
-}
-
-.pics button.selected:hover {
-  /*     background-color: #505050;
-        color: white; */
-}
-
-.pics button.selected:active {
-  /*    background-color: black;
-        color: white; */
-
-}
 
 .pics .badge {
   display: inline-block;
@@ -155,8 +122,7 @@
 .imgss {
   width: 300px;
   height: 200px;
-  /* margin-left: -10px;
-        margin-top: -20px; */
+
   position: absolute;
 }
 
@@ -250,24 +216,7 @@
   width: 500px;
 }
 
-@media screen and (max-width: 1920px) {
-  .openedimage {
-    bottom: 1117px;
-    width: 800px;
-    height: 600px;
-    z-index: 232323232;
-    left: 70px;
-  }
 
-  .block_for_opened_image {
-    width: 700px;
-    height: 350px;
-  }
-
-  .openedimageclose {
-    margin-left: 799px;
-  }
-}
 
 
 
