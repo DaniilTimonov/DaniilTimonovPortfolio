@@ -1,7 +1,4 @@
 <div class="traditional_art_page" [class.backgroundfade]="fadeblack">
-  <!-- <div class="traditionalartslider">
-    <app-traditionalartslider></app-traditionalartslider>
-  </div> -->
   <div class="pics" [class.opacityclass]="check">
     <div class="picturecard" *ngFor="let picture of pics">
       <button [class.selected]="picture === selectedPicture" type="button" (click)="onSelect(picture)">

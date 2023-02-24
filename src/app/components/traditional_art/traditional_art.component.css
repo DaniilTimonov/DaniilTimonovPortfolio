@@ -88,13 +88,6 @@
   left: 0.1em;
 }
 
-.pics button:active {}
-
-.pics button.selected {}
-
-.pics button.selected:hover {}
-
-.pics button.selected:active {}
 
 .pics .badge {
   display: inline-block;
